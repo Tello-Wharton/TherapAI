@@ -253,6 +253,12 @@
         return branch;
     }
 
+    function secureLink(responseHandler, question){
+
+    }
+
+
+
     makeBranch(allThings, responseHandler1);
     makeBranch(good, responseHandlerGood);
     makeBranch(work, responseHandlerYN1);
@@ -306,7 +312,7 @@
 
     //Document Editing Sheit
 
-    var response = "How are you today?<br/>";
+    var response = allThings.message + "<br/>";
     var message = "";
 
     function addText() {
