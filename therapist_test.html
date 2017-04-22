@@ -19,25 +19,27 @@
         "family" : family
     };
 
-    var yes = {
-        "message" : "Great, what would you like to talk about?",
-        "responseHandler" : responseHandlerTopic
+    var yesnoYN2 = {
+        yes : {
+            "message" : "Great, what would you like to talk about?",
+            "responseHandler" : responseHandlerTopic
+        },
 
+        no : {
+            "message" : "Ok! I'm glad you stopped by, I'll see you soon for our next session"
+        }
     };
-
-    var no = {
-        "message" : "Ok! I'm glad you stopped by, I'll see you soon for our next session"
-    };
+    
 
     var responseHandlerYN2 = {
-        "yes" : yes,
-        "sure" : yes,
-        "ok" : yes,
-        "why not" : yes,
-        "yeah" : yes,
-        "no" : no,
-        "nah" : no,
-        "nope" : no
+        "yes" : yesnoYN2.yes,
+        "sure" : yesnoYN2.yes,
+        "ok" : yesnoYN2.yes,
+        "why not" : yesnoYN2.yes,
+        "yeah" : yesnoYN2.yes,
+        "no" : yesnoYN2.no,
+        "nah" : yesnoYN2.no,
+        "nope" : yesnoYN2.no
     };
 
     var yes = {
