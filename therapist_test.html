@@ -73,59 +73,91 @@
         var family = {
             "message" : "That's great! A good family support network is really important! Would you like to talk about your family?",
             "responseHandler" :responseHandlerYN1,
-            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+            "catch" : {
+                "message" : "I'm sorry I didn't understand you there. Could you explain?",
+                "responseHandler" : responseHandlerYN1
+            }
         };
 
         var school = {
             "message" : "Oh I'm glad it's going well! Do you want to talk about school?",
             "responseHandler" :responseHandlerYN1,
-            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+            "catch" : {
+                "message" : "I'm sorry I didn't understand you there. Could you explain?",
+                "responseHandler" : responseHandlerYN1
+            }
          };
 
         var university = {
             "message" : "I'm glad uni is going well. I hope youre not too stressed about exams?",
             "responseHandler" :responseHandlerYN1,
-            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+            "catch" : {
+                "message" : "I'm sorry I didn't understand you there. Could you explain?",
+                "responseHandler" : responseHandlerYN1
+            }        
         };
 
         var friend = {
             "message" : "Thats good to hear! Friends are really important for your mental health! Would you like to talk about your friends?",
             "responseHandler" :responseHandlerYN1,
-            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+            "catch" : {
+                "message" : "I'm sorry I didn't understand you there. Could you explain?",
+                "responseHandler" : responseHandlerYN1
+            }
         };
 
         var girlfriend = {
             "message" : "Oh wonderful! Would you like to talk about her?",
             "responseHandler" :responseHandlerYN1,
-            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+            "catch" : {
+                "message" : "I'm sorry I didn't understand you there. Could you explain?",
+                "responseHandler" : responseHandlerYN1
+            }
         };
+
         var boyfriend = {
             "message" : "Oh wonderful! Would you like to talk about him?",
             "responseHandler" :responseHandlerYN1,
-            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+            "catch" : {
+                "message" : "I'm sorry I didn't understand you there. Could you explain?",
+                "responseHandler" : responseHandlerYN1
+            }
         };
+
         var partner = {
            "message" : "Oh wonderful! Would you like to talk about them?",
            "responseHandler" :responseHandlerYN1,
-            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+            "catch" : {
+                "message" : "I'm sorry I didn't understand you there. Could you explain?",
+                "responseHandler" : responseHandlerYN1
+            }
         };
 
         var holiday = {
             "message" : "Wow I'd love to go globetrotting like that! Did you have a good time?",
             "responseHandler" :responseHandlerYN1,
-            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+            "catch" : {
+                "message" : "I'm sorry I didn't understand you there. Could you explain?",
+                "responseHandler" : responseHandlerYN1
+            }
         };
 
         var event = {
             "message" : "Sounds lovely! Did you have a good time?",
             "responseHandler" : responseHandlerYN1,
-            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+            "catch" : {
+                "message" : "I'm sorry I didn't understand you there. Could you explain?",
+                "responseHandler" : responseHandlerYN1
+            }
         };
 
         var work = {
             "message" : "It's great that you love your job. Finding fulfilling work is hard but worth it! Would you like to talk about work?",
             "responseHandler" :responseHandlerYN1,
-            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+            "catch" : {
+                "message" : "I'm sorry I didn't understand you there. Could you explain?",
+                "responseHandler" : responseHandlerYN1
+            }
         };
 
     var responseHandlerGood = {
@@ -152,7 +184,9 @@
     var good = {
         "message" : "Oh that's good! What's been making you so happy?",
         "responseHandler" : responseHandlerGood,
-        "catch" : "That sounds nice, I'm glad you're feeling good about life right now. Is there anything else you'd like to talk to me about?"
+        "catch" : {
+            "message" : "That sounds nice, I'm glad you're feeling good about life right now. Is there anything else you'd like to talk to me about?"
+            "responseHandler" : responseHandlerYN2
     };
 
 
