@@ -10,6 +10,9 @@
 
 
     <script>
+
+        var mood = "neutral";
+
         var branches = [];
 
         var yes = "remove later";
@@ -206,6 +209,12 @@
     var good = {
         "message" : "Oh that's good! What's been making you so happy?",
         "responseHandler" : responseHandlerGood,
+
+        responseEvent : function(){
+            mood = "good";
+            console.log("Mood: " + mood);
+        },
+
         "catch" : {
             "message" : "That sounds nice, I'm glad you're feeling good about life right now. Is there anything else you'd like to talk to me about?",
             "responseHandler" : responseHandlerYN2
@@ -307,10 +316,15 @@ var yesnoYN3 = {
     var bad = {
         "message" : "Oh no, what's been troubling you?",
         "responseHandler" : responseHandlerBad,
+        responseEvent : function(){
+            mood = "bad";
+            console.log("Mood: " + mood);
+        },
         "catch" : {
             "message" : "I'm not really qualified to advise you on that I'm afraid. If you're having problems I can direct you to a professional, do you think that would help?",
             "responseHandler" : responseHandlerYN3
         }
+
     };
 
     var cake = {
@@ -390,6 +404,10 @@ var yesnoYN3 = {
                 }
                 position = thecatch;
             }
+        }
+
+        if (position.responseEvent != undefined) {
+            position.responseEvent();
         }
 
         var tempResponse = position.message;
