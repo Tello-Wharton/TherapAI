@@ -10,30 +10,12 @@
 
 
     <script>
-
-    var good = {
-        "message" : "Oh that's good! What's been making you so happy?",
-        "responseHandler" : responseHandler1 ,
-        "catch" : "That sounds nice, I'm glad you're feeling good about life right now. Is there anything else you'd like to talk to me about?"
-    };
-        
-    var responseHandler1 = {
-        "family" : family,
-        "school" : school,
-        "university" : university,
-        "friend" : friend,
-        "girlfried" : girlfriend,
-        "boyfriend" : boyfriend,
-        "holiday" : holiday,
-        "work" : work,
-
-        };
         var family = {
-            "message" : "That's great! A good family support network is really important"
+            "message" : "That's great! A good family support network is really important! Would you like to talk about your family?"
         };
 
         var school = {
-            "message" : "Oh I'm glad its going well, do you want to talk about it?"
+            "message" : "Oh I'm glad it's going well! Do you want to talk about school?"
          };
 
         var university = {
@@ -41,7 +23,7 @@
         };
 
         var friend = {
-            "message" : "Thats good to hear! Friends are really important for your mental health"
+            "message" : "Thats good to hear! Friends are really important for your mental health! Would you like to talk about your friends?"
         };
 
         var girlfriend = {
@@ -50,14 +32,61 @@
         var boyfriend = {
             "message" : "Oh wonderful! Would you like to talk about him?"
         };
+        var partner = {
+           "message" : "Oh wonderful! Would you like to talk about them?"
+        }
 
         var holiday = {
-            "message" : "Wow I'd love to go globetrotting like that! did you have a good time?"
+            "message" : "Wow I'd love to go globetrotting like that! Did you have a good time?"
         };
 
+        var event = {
+            "message" : "Sounds lovely! Did you have a good time?"
+        }
+
+    var responseHandlerWork = {
+        "yes" : yes,
+        "sure" : yes,
+        "ok" : yes,
+        "why not" : yes,
+        "yeah" : yes,
+        "no" : no,
+        "nah" : no,
+        "nope" : no,
+    }
+
         var work = {
-            "message" : "It's great that you love your job. Finding fulfilling work is hard but worth it!"
+            "message" : "It's great that you love your job. Finding fulfilling work is hard but worth it! Would you like to talk about work?"
+            "responseHandler" :responseHandlerWork
+            "catch" : ""
         };
+
+    var responseHandlerGood = {
+        "family" : family,
+        "school" : school,
+        "university" : university,
+        "friend" : friend,
+        "girlfriend" : girlfriend,
+        "boyfriend" : boyfriend,
+        "Wife" : girlfriend,
+        "Husband" : boyfriend,
+        "partner" : partner,
+        "holiday" : holiday,
+        "trip" : event,
+        "event" : event,
+        "wedding" : event,
+        "party" : event,
+        "night out" : event,
+        "date" : event,
+        "work" : work
+
+        };
+
+    var good = {
+        "message" : "Oh that's good! What's been making you so happy?",
+        "responseHandler" : responseHandlerGood,
+        "catch" : "That sounds nice, I'm glad you're feeling good about life right now. Is there anything else you'd like to talk to me about?"
+    };
 
 
     var bad = {
@@ -68,7 +97,7 @@
         "message" : "CAKE!"
     };
 
-    var testResponseHandler = {
+    var responseHandler1 = {
         "good"  : good,
         "great" : good,
         "awesome" : good,
@@ -82,8 +111,8 @@
 
     var allThings = {
         "message" : "Hello, we're going to have a 'therapy session'. How are you today?",
-        "responseHandler" : testResponseHandler,
-        "catch" : "Excuse me?"
+        "responseHandler" : responseHandler1,
+        "catch" : "Sorry, I didn't understand that, could you explain?"
     };
 
     var position = allThings;
