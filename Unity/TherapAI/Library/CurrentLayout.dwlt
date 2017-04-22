@@ -143,7 +143,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -324,11 +324,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/scripts/With SAPI DLL
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/scripts/With SAPI DLL
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ryan\Documents\hack day\anvil hack 3\unity stuff\TherapAI\Unity\TherapAI
   m_IsLocked: 0

@@ -40,10 +40,12 @@ public class TestVoice : MonoBehaviour
 		}
 	}
 
+	// Test function to check that speech works
 	void speechTest () {
 		vm.SayEX("Hello, I have now become a human being", 1+8);
 	}
 
+	// Input string for conversion to text to speech - Callable from JavaS script
 	void saySpeech(string textToSay) {
 		vm.SayEX(textToSay, 1+8+32);
 	}

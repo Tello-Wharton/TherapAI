@@ -10,6 +10,8 @@
 
 
     <script>
+        var branches = [];
+
         var yes = "remove later";
         var no = "remove later";
 
@@ -103,6 +105,12 @@
         "message" : "CAKE!"
     };
 
+    var allThings = {
+        "message" : "Hello, we're going to have a 'therapy session'. How are you today?",
+        "responseHandler" : responseHandler1,
+        "catch" : "Sorry, I didn't understand that, could you explain?"
+    };
+
     var responseHandler1 = {
         "good"  : good,
         "great" : good,
@@ -115,15 +123,23 @@
         "cake"  : cake
     };
 
-    var allThings = {
-        "message" : "Hello, we're going to have a 'therapy session'. How are you today?",
-        "responseHandler" : responseHandler1,
-        "catch" : "Sorry, I didn't understand that, could you explain?"
-    };
-
     var position = allThings;
 
 
+    function makeBranch(question, responseHandler){
+        var branch = {
+            question : question,
+            responseHandler : responseHandler
+        };
+
+        branch.question.responseHandler = branch.responseHandler;
+
+        return branch;
+    }
+
+    makeBranch(allThings, responseHandler1);
+
+    //process a command
     function processCommand(command){
         
         position =  position.responseHandler[command];
