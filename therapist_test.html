@@ -155,6 +155,10 @@
                 position = oldposition;
                 return thecatch;
             }else{
+                if (thecatch == undefined) {
+                    thecatch = allThings;
+                    //HERE!
+                }
                 position = thecatch;
             }
         }
