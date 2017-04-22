@@ -210,9 +210,22 @@
     //process a command
     function processCommand(command){
         
+        var thecatch = position.catch;
+        var oldposition = position;
+
+        //Clear this later
+
         position =  position.responseHandler[command];
 
-        if (position == undefined) console.log("ERROR: Does the response handler have a corresponding command? It's not here");
+        if (position == undefined) {
+            console.log("WARN: Does the response handler have a corresponding command? It's not here");
+            if (typeof thecatch == "string") {
+                position = oldposition;
+                return thecatch;
+            }else{
+                position = thecatch;
+            }
+        }
 
         var tempResponse = position.message;
 
