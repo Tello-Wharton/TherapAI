@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Best Text Editor</title>
+  </head>
+  <body>
+
+
+
+
+
+    <script>
+        var yes = "remove later";
+        var no = "remove later";
+
+
+
+
+        var family = {
+            "message" : "That's great! A good family support network is really important! Would you like to talk about your family?"
+        };
+
+        var school = {
+            "message" : "Oh I'm glad it's going well! Do you want to talk about school?"
+         };
+
+        var university = {
+            "message" : "I'm glad uni is going well. I hope youre not too stressed about exams?"
+        };
+
+        var friend = {
+            "message" : "Thats good to hear! Friends are really important for your mental health! Would you like to talk about your friends?"
+        };
+
+        var girlfriend = {
+            "message" : "Oh wonderful! Would you like to talk about her?"
+        };
+        var boyfriend = {
+            "message" : "Oh wonderful! Would you like to talk about him?"
+        };
+        var partner = {
+           "message" : "Oh wonderful! Would you like to talk about them?"
+        }
+
+        var holiday = {
+            "message" : "Wow I'd love to go globetrotting like that! Did you have a good time?"
+        };
+
+        var event = {
+            "message" : "Sounds lovely! Did you have a good time?"
+        }
+
+    var responseHandlerWork = {
+        "yes" : yes,
+        "sure" : yes,
+        "ok" : yes,
+        "why not" : yes,
+        "yeah" : yes,
+        "no" : no,
+        "nah" : no,
+        "nope" : no,
+    }
+
+        var work = {
+            "message" : "It's great that you love your job. Finding fulfilling work is hard but worth it! Would you like to talk about work?",
+            "responseHandler" :responseHandlerWork,
+            "catch" : ""
+        };
+
+    var responseHandlerGood = {
+        "family" : family,
+        "school" : school,
+        "university" : university,
+        "friend" : friend,
+        "girlfriend" : girlfriend,
+        "boyfriend" : boyfriend,
+        "Wife" : girlfriend,
+        "Husband" : boyfriend,
+        "partner" : partner,
+        "holiday" : holiday,
+        "trip" : event,
+        "event" : event,
+        "wedding" : event,
+        "party" : event,
+        "night out" : event,
+        "date" : event,
+        "work" : work
+
+        };
+
+    var good = {
+        "message" : "Oh that's good! What's been making you so happy?",
+        "responseHandler" : responseHandlerGood,
+        "catch" : "That sounds nice, I'm glad you're feeling good about life right now. Is there anything else you'd like to talk to me about?"
+    };
+
+
+    var bad = {
+        "message" : "Awh no :c"
+    };
+
+    var cake = {
+        "message" : "CAKE!"
+    };
+
+    var responseHandler1 = {
+        "good"  : good,
+        "great" : good,
+        "awesome" : good,
+        "bad"   : bad,
+        "shitty" : bad,
+        "shit" : bad,
+        "awful" : bad,
+        "terrible" : bad,
+        "cake"  : cake
+    };
+
+    var allThings = {
+        "message" : "Hello, we're going to have a 'therapy session'. How are you today?",
+        "responseHandler" : responseHandler1,
+        "catch" : "Sorry, I didn't understand that, could you explain?"
+    };
+
+    var position = allThings;
+
+
+    function processCommand(command){
+        
+        position =  position.responseHandler[command];
+
+        if (position == undefined) console.log("ERROR: Does the response handler have a corresponding command? It's not here");
+
+        var tempResponse = position.message;
+
+        if (position.responseHandler == undefined) {
+            
+            console.log("ERROR: Does the response to this keyword have a corresponding response handler?");
+
+            //return "Oh No";
+        }
+        return tempResponse;
+    }
+
+
+
+
+    //Document Editing Sheit
+
+    var response = "How are you today?<br/>";
+    var message = "";
+
+    function addText() {
+      var command = document.getElementById("command").value;
+      //processCommand(command);
+      response+= processCommand(command);
+      response+= "<br/>";
+
+
+      document.getElementById("console").innerHTML=response;
+      document.getElementById("command").value="";
+
+      return false;
+    }
+
+    </script>
+
+    <div id="console">
+    </div>
+    <form onsubmit="return addText()">
+      <input id="command" type="text" name="text" autocomplete="off"/>
+    </form>
+
+    <script>
+
+    document.getElementById("console").innerHTML=response;
+
+    </script>
+
+
+
+
+
+  </body>
+</html>
