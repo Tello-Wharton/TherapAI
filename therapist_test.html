@@ -92,11 +92,16 @@
     function processCommand(command){
         
         position =  position.responseHandler[command];
+
+        if (position == undefined) console.log("ERROR: Does the response handler have a corresponding command? It's not here");
+
         var tempResponse = position.message;
 
         if (position.responseHandler == undefined) {
-            //position = allThings;
-            console.log("well shit");
+            
+            console.log("ERROR: Does the response to this keyword have a corresponding response handler?");
+
+            //return "Oh No";
         }
         return tempResponse;
     }
