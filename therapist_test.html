@@ -154,7 +154,7 @@
 
     var yesnoYN1 = {
         yes : {
-            "message" : "That's great, what would you like to tell me about?",
+            "message" : "That's great, what would you like to tell me about it?",
             "responseHandler" : {},
             "catch" : {
                 "message" : "That sounds great! I'm glad everything's going well! is there anything else you'd like to talk about?",
@@ -212,9 +212,105 @@
         }
     };
 
+    var responseHandlerBad = {
+        "family" : family,
+        "school" : school,
+        "university" : university,
+        "friend" : friend,
+        "girlfriend" : girlfriend,
+        "boyfriend" : boyfriend,
+        "Wife" : girlfriend,
+        "Husband" : boyfriend,
+        "partner" : partner,
+        "holiday" : holiday,
+        "trip" : event,
+        "event" : event,
+        "wedding" : event,
+        "party" : event,
+        "night out" : event,
+        "date" : event,
+        "work" : work
+
+    }
+
+    var yesnoYN4 = {
+        yes : {
+            "message" : "Ok, it's always your decision whether or not to seek professional help and you shouldn't do so if you don't feel ready. Just know that help is always available if you need it. Is there anything else you'd like to talk about?"
+            "responseHandler" : responseHandlerTopic, //ToDo: need to change this to the masterlist handler later
+            "catch" : {
+                "message" : "I don't really understand what you mean, it may be best to speak to a professional about that. Is there something else I can help with?",
+                "responseHandler" : responseHandlerTopic //ToDo: need to change this to the masterlist handler later
+            }
+        },
+        maybe : {
+            "message" : "I can't help you further with that issue, so here are some contact details for support organisations if you feel they might be useful. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support Is there anything else you want to talk about?",
+            "responseHandler" : responseHandlerTopic, //ToDo: need to change this to the masterlist handler later
+            "catch" : {
+                "message" : "I don't really understand what you mean, it may be best to speak to a professional about that. Is there something else I can help with?",
+                "responseHandler" : responseHandlerTopic //ToDo: need to change this to the masterlist handler later
+            }
+        },
+        no : {
+            "message" : "Recognising that you need help is a great first step! here are the contact details of some professional support organisations who may be able to help you. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support"
+        }
+    };
+
+    var responseHandlerYN4 = {
+            "yes" : yesnoYN4.yes,
+            "I'm sure" : yesnoYN4.yes,
+            "sure" : yesnoYN4.yes,
+            "ok" : yesnoYN4.yes,
+            "why not" : yesnoYN4.yes,
+            "I guess" : yesnoYN4.yes,
+            "It might" : yesnoYN4.yes,
+            "yeah" : yesnoYN4.yes,
+            "maybe" : yesnoYN4.maybe,
+            "I'm not sure" : yesnoYN4.maybe,
+            "Not really" : yesnoYN4.maybe,
+            "no" : yesnoYN4.no,
+            "nah" : yesnoYN4.no,
+            "nope" : yesnoYN4.no
+
+var yesnoYN3 = {
+        yes : {
+            "message" : "Recognising that you need help is a great first step! here are the contact details of some professional support organisations who may be able to help you. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support"
+        },
+        maybe : {
+            "message" : "I can't help you further with that issue, so here are some contact details for support organisations if you feel they might be useful. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support Is there anything else you want to talk about?",
+            "responseHandler" : responseHandlerTopic, //ToDo: need to change this to the masterlist handler later
+            "catch" : {
+                "message" : "I don't really understand what you mean, it may be best to speak to a professional about that. Is there something else I can help with?",
+                "responseHandler" : responseHandlerTopic //ToDo: need to change this to the masterlist handler later
+            }
+        },
+        no : {
+            "message" : "Are you sure?",
+            "responseHandler" : responseHandlerYN4
+        }
+    };
+
+    var responseHandlerYN3 = {
+        "yes" : yesnoYN3.yes,
+        "sure" : yesnoYN3.yes,
+        "ok" : yesnoYN3.yes,
+        "why not" : yesnoYN3.yes,
+        "I guess" : yesnoYN3.yes,
+        "It might" : yesnoYN3.yes,
+        "yeah" : yesnoYN3.yes,
+        "maybe" : yesnoYN3.maybe,
+        "I'm not sure" : yesnoYN3.maybe,
+        "no" : yesnoYN3.no,
+        "nah" : yesnoYN3.no,
+        "nope" : yesnoYN3.no
+    };
 
     var bad = {
-        "message" : "Awh no :c"
+        "message" : "Oh no, what's been troubling you?",
+        "responseHandler" : responseHandlerBad,
+        "catch" : {
+            "message" : "I'm not really qualified to advise you on that I'm afraid. If you're having problems I can direct you to a professional, do you think that would help?",
+            "responseHandler" : responseHandlerYN3
+        }
     };
 
     var cake = {
