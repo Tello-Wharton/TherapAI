@@ -11,38 +11,61 @@
 
     <script>
 
-    var good = {
-    	"message" : "Oh that's good!"
+    var no = {
+        "message" : "Sad Face"
+    };
+
+    var yes = {
+        "message" : "yey"
+    };
+
+    var anotherTestResponseHandler = {
+        "no" : no,
+        "yes" : yes
     }
+
+    var good = {
+    	"message" : "Oh that's good! Have you seen your family recently?",
+        "responseHandler" : anotherTestResponseHandler
+    };
 
     var bad = {
     	"message" : "Awh no :c"
-    }
+    };
 
     var cake = {
     	"message" : "CAKE!"
-    }
+    };
 
     var testResponseHandler = {
     	"good" 	: good,
     	"bad" 	: bad,
     	"cake"	: cake
-    }
+    };
 
     var allThings = {
     	"message" : "Hello, we're going to have a 'therapy session'. How are you today?",
-    	"resonseHandler" : testResponseHandler,
+    	"responseHandler" : testResponseHandler,
     	"catch" : "Excuse me?"
-    }
+    };
 
     var position = allThings;
 
 
     function processCommand(command){
-    	position =  position.resonseHandler[command];
-    	if (typeof position == "string") position = allThings;
+        
+    	position =  position.responseHandler[command];
+        var tempResponse = position.message;
+
+    	if (position.responseHandler == undefined) {
+            //position = allThings;
+            console.log("well shit");
+        }
+        return tempResponse;
     }
 
+
+    /*
     function respond(){
     	if (typeof position === "string"){
     		//response = position
@@ -51,7 +74,7 @@
     	}
 
     	return position.message;
-    }
+    }*/
 
 
 
@@ -63,12 +86,14 @@
 
     function addText() {
       var command = document.getElementById("command").value;
-      processCommand(command);
-      response+= respond();
+      //processCommand(command);
+      response+= processCommand(command);
       response+= "<br/>";
 
 
       document.getElementById("console").innerHTML=response;
+      document.getElementById("command").value="";
+
       return false;
     }
 
@@ -77,7 +102,7 @@
     <div id="console">
     </div>
     <form onsubmit="return addText()">
-      <input id="command" type="text" name="text"/>
+      <input id="command" type="text" name="text" autocomplete="off"/>
     </form>
 
     <script>
