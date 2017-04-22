@@ -15,44 +15,21 @@
         var yes = "remove later";
         var no = "remove later";
 
+    var responseHandlerTopic = {
+        "family" : family
+    }
 
+    var yes = {
+        "message" : "Great, what would you like to talk about?"
+        "responseHandler" : responseHandlerTopic
 
+    }
 
-        var family = {
-            "message" : "That's great! A good family support network is really important! Would you like to talk about your family?"
-        };
+    var no = {
+        "message" : "Ok! I'm glad you stopped by, I'll see you soon for our next session"
+    }
 
-        var school = {
-            "message" : "Oh I'm glad it's going well! Do you want to talk about school?"
-         };
-
-        var university = {
-            "message" : "I'm glad uni is going well. I hope youre not too stressed about exams?"
-        };
-
-        var friend = {
-            "message" : "Thats good to hear! Friends are really important for your mental health! Would you like to talk about your friends?"
-        };
-
-        var girlfriend = {
-            "message" : "Oh wonderful! Would you like to talk about her?"
-        };
-        var boyfriend = {
-            "message" : "Oh wonderful! Would you like to talk about him?"
-        };
-        var partner = {
-           "message" : "Oh wonderful! Would you like to talk about them?"
-        }
-
-        var holiday = {
-            "message" : "Wow I'd love to go globetrotting like that! Did you have a good time?"
-        };
-
-        var event = {
-            "message" : "Sounds lovely! Did you have a good time?"
-        }
-
-    var responseHandlerWork = {
+    var responseHandlerYN2 = {
         "yes" : yes,
         "sure" : yes,
         "ok" : yes,
@@ -60,13 +37,93 @@
         "yeah" : yes,
         "no" : no,
         "nah" : no,
-        "nope" : no,
-    }
+        "nope" : no
+    };
+
+    var yes = {
+            "message" : "That's great, what would you like to tell me about?",
+            "catch" : {
+                "message" : "That sounds great! I'm glad everything's going well! is there anything else you'd like to talk about?",
+                "responseHandler" : responseHandlerYN2
+                "catch" : {
+                    "message" : "What do you want to talk about?"
+                    "responseHandler" : responseHandlerTopic
+                    }
+                }
+            }
+        };
+        var no = {
+            "message" : "That's ok, is there something else you'd like to talk about?",
+            "responseHandler" : responseHandlerYN2
+        };
+    var responseHandlerYN1 = {
+        "yes" : yes,
+        "sure" : yes,
+        "ok" : yes,
+        "why not" : yes,
+        "yeah" : yes,
+        "no" : no,
+        "nah" : no,
+        "nope" : no
+    };
+
+
+        var family = {
+            "message" : "That's great! A good family support network is really important! Would you like to talk about your family?",
+            "responseHandler" :responseHandlerYN1,
+            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+        };
+
+        var school = {
+            "message" : "Oh I'm glad it's going well! Do you want to talk about school?",
+            "responseHandler" :responseHandlerYN1,
+            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+         };
+
+        var university = {
+            "message" : "I'm glad uni is going well. I hope youre not too stressed about exams?",
+            "responseHandler" :responseHandlerYN1,
+            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+        };
+
+        var friend = {
+            "message" : "Thats good to hear! Friends are really important for your mental health! Would you like to talk about your friends?",
+            "responseHandler" :responseHandlerYN1,
+            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+        };
+
+        var girlfriend = {
+            "message" : "Oh wonderful! Would you like to talk about her?",
+            "responseHandler" :responseHandlerYN1,
+            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+        };
+        var boyfriend = {
+            "message" : "Oh wonderful! Would you like to talk about him?",
+            "responseHandler" :responseHandlerYN1,
+            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+        };
+        var partner = {
+           "message" : "Oh wonderful! Would you like to talk about them?",
+           "responseHandler" :responseHandlerYN1,
+            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+        };
+
+        var holiday = {
+            "message" : "Wow I'd love to go globetrotting like that! Did you have a good time?",
+            "responseHandler" :responseHandlerYN1,
+            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+        };
+
+        var event = {
+            "message" : "Sounds lovely! Did you have a good time?",
+            "responseHandler" : responseHandlerYN1,
+            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
+        };
 
         var work = {
             "message" : "It's great that you love your job. Finding fulfilling work is hard but worth it! Would you like to talk about work?",
-            "responseHandler" :responseHandlerWork,
-            "catch" : ""
+            "responseHandler" :responseHandlerYN1,
+            "catch" : "I'm sorry I didn't understand you there. Could you explain?"
         };
 
     var responseHandlerGood = {
@@ -138,6 +195,17 @@
     }
 
     makeBranch(allThings, responseHandler1);
+    makeBranch(good, responseHandlerGood);
+    makeBranch(work, responseHandlerYN1);
+    makeBranch(school, responseHandlerYN1);
+    makeBranch(family, responseHandlerYN1);
+    makeBranch(friend, responseHandlerYN1);
+    makeBranch(girlfriend, responseHandlerYN1);
+    makeBranch(boyfriend, responseHandlerYN1);
+    makeBranch(partner, responseHandlerYN1);
+    makeBranch(holiday, responseHandlerYN1);
+    makeBranch(event, responseHandlerYN1);
+
 
     //process a command
     function processCommand(command){
