@@ -20,7 +20,7 @@
     }
 
     var yes = {
-        "message" : "Great, what would you like to talk about?"
+        "message" : "Great, what would you like to talk about?",
         "responseHandler" : responseHandlerTopic
 
     }
@@ -41,17 +41,17 @@
     };
 
     var yes = {
-            "message" : "That's great, what would you like to tell me about?",
+        "message" : "That's great, what would you like to tell me about?",
+        "catch" : {
+            "message" : "That sounds great! I'm glad everything's going well! is there anything else you'd like to talk about?",
+            "responseHandler" : responseHandlerYN2,
             "catch" : {
-                "message" : "That sounds great! I'm glad everything's going well! is there anything else you'd like to talk about?",
-                "responseHandler" : responseHandlerYN2
-                "catch" : {
-                    "message" : "What do you want to talk about?"
-                    "responseHandler" : responseHandlerTopic
-                    }
-                }
+                "message" : "What do you want to talk about?",
+                "responseHandler" : responseHandlerTopic
             }
-        };
+                
+        }
+    };
         var no = {
             "message" : "That's ok, is there something else you'd like to talk about?",
             "responseHandler" : responseHandlerYN2
