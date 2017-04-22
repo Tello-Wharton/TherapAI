@@ -1,0 +1,11 @@
+Start code runs at the beginning
+Update code runs when something happens or the oject updates
+Put functions that you want to use outside of start and update
+
+Things to do
+Get a textbox on screen that it will read out with a button to read it 
+Get a textbubble to display the output from the AI as it reads
+- Ask Ryan for how to
+
+Get the C# library to go back to the Javascript library and execute functions
+from that

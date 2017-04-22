@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/speech.unity
+  isLoaded: 1
+  isActive: 1
