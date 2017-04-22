@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Best Text Editor</title>
+  </head>
+  <body>
+
+
+
+
+
+    <script>
+
+
+
+
+
+
+    //Document Editing Sheit
+    
+    var response = "Welcome :)<br/>";
+    var message = "";
+
+    function addText() {
+      var command = document.getElementById("command").value;
+      response+= command;
+      response+= "<br/>";
+
+
+      document.getElementById("console").innerHTML=response;
+      return false;
+    }
+
+    </script>
+
+    <div id="console">
+    </div>
+    <form onsubmit="return addText()">
+      <input id="command" type="text" name="text"/>
+    </form>
+
+    <script>
+
+    document.getElementById("console").innerHTML=response;
+
+    </script>
+
+
+
+
+
+  </body>
+</html>
