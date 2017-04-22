@@ -11,41 +11,79 @@
 
     <script>
 
-    var no = {
-        "message" : "Sad Face"
-    };
-    var yes = {
-        "message" : "yey"
-    };
-    //kill me
-    var anotherTestResponseHandler = {
-        "no" : no,
-        "yes" : yes
-    }
-
     var good = {
-    	"message" : "Oh that's good! Have you seen your family recently?",
-        "responseHandler" : anotherTestResponseHandler
+        "message" : "Oh that's good! What's been making you so happy?",
+        "responseHandler" : responseHandler1 ,
+        "catch" : "That sounds nice, I'm glad you're feeling good about life right now. Is there anything else you'd like to talk to me about?"
     };
+        
+    var responseHandler1 = {
+        "family" : family,
+        "school" : school,
+        "university" : university,
+        "friend" : friend,
+        "girlfried" : girlfriend,
+        "boyfriend" : boyfriend,
+        "holiday" : holiday,
+        "work" : work,
+
+        };
+        var family = {
+            "message" : "That's great! A good family support network is really important"
+        };
+
+        var school = {
+            "message" : "Oh I'm glad its going well, do you want to talk about it?"
+         };
+
+        var university = {
+            "message" : "I'm glad uni is going well. I hope youre not too stressed about exams?"
+        };
+
+        var friend = {
+            "message" : "Thats good to hear! Friends are really important for your mental health"
+        };
+
+        var girlfriend = {
+            "message" : "Oh wonderful! Would you like to talk about her?"
+        };
+        var boyfriend = {
+            "message" : "Oh wonderful! Would you like to talk about him?"
+        };
+
+        var holiday = {
+            "message" : "Wow I'd love to go globetrotting like that! did you have a good time?"
+        };
+
+        var work = {
+            "message" : "It's great that you love your job. Finding fulfilling work is hard but worth it!"
+        };
+
 
     var bad = {
-    	"message" : "Awh no :c"
+        "message" : "Awh no :c"
     };
 
     var cake = {
-    	"message" : "CAKE!"
+        "message" : "CAKE!"
     };
 
     var testResponseHandler = {
-    	"good" 	: good,
-    	"bad" 	: bad,
-    	"cake"	: cake
+        "good"  : good,
+        "great" : good,
+        "awesome" : good,
+        "bad"   : bad,
+        "shitty" : bad,
+        "shit" : bad,
+        "awful" : bad,
+        "terrible" : bad,
+        "cake"  : cake
     };
 
     var allThings = {
-    	"message" : "Hello, we're going to have a 'therapy session'. How are you today?",
-    	"responseHandler" : testResponseHandler,
-    	"catch" : "Excuse me?"
+        "message" : "Hello, we're going to have a 'therapy session'. How are you today?",
+        "responseHandler" : testResponseHandler,
+        "catch" : "Excuse me?"
     };
 
     var position = allThings;
@@ -53,10 +91,10 @@
 
     function processCommand(command){
         
-    	position =  position.responseHandler[command];
+        position =  position.responseHandler[command];
         var tempResponse = position.message;
 
-    	if (position.responseHandler == undefined) {
+        if (position.responseHandler == undefined) {
             //position = allThings;
             console.log("well shit");
         }
@@ -66,13 +104,13 @@
 
     /*
     function respond(){
-    	if (typeof position === "string"){
-    		//response = position
-    		//position = allThings;
-    		return "Oops";
-    	}
+        if (typeof position === "string"){
+            //response = position
+            //position = allThings;
+            return "Oops";
+        }
 
-    	return position.message;
+        return position.message;
     }*/
 
 
@@ -80,7 +118,7 @@
 
     //Document Editing Sheit
 
-    var response = "Welcome :)<br/>";
+    var response = "How are you today?<br/>";
     var message = "";
 
     function addText() {
