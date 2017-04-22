@@ -24,18 +24,17 @@
         "no" : no,
         "nah" : no,
         "nope" : no
-    }
+    };
 
     var yes = {
             "message" : "That's great, what would you like to tell me about?",
-            "responseHandler" : responseHandlerTell,
             "catch" : "That sounds great! I'm glad everything's going well! is there anything else you'd like to talk about?",
             "responseHandler" : responseHandlerYN2
-        }
+        };
         var no = {
             "message" : "That's ok, is there something else you'd like to talk about?",
             "responseHandler" : responseHandlerYN2
-        }
+        };
     var responseHandlerYN1 = {
         "yes" : yes,
         "sure" : yes,
@@ -45,7 +44,7 @@
         "no" : no,
         "nah" : no,
         "nope" : no
-    }
+    };
 
 
         var family = {
@@ -86,7 +85,7 @@
            "message" : "Oh wonderful! Would you like to talk about them?",
            "responseHandler" :responseHandlerYN1,
             "catch" : "I'm sorry I didn't understand you there. Could you explain?"
-        }
+        };
 
         var holiday = {
             "message" : "Wow I'd love to go globetrotting like that! Did you have a good time?",
@@ -98,7 +97,7 @@
             "message" : "Sounds lovely! Did you have a good time?",
             "responseHandler" : responseHandlerYN1,
             "catch" : "I'm sorry I didn't understand you there. Could you explain?"
-        }
+        };
 
         var work = {
             "message" : "It's great that you love your job. Finding fulfilling work is hard but worth it! Would you like to talk about work?",
