@@ -11,19 +11,60 @@
 
     <script>
 
+    var good = {
+    	"message" : "Oh that's good!"
+    }
 
+    var bad = {
+    	"message" : "Awh no :c"
+    }
+
+    var cake = {
+    	"message" : "CAKE!"
+    }
+
+    var testResponseHandler = {
+    	"good" 	: good,
+    	"bad" 	: bad,
+    	"cake"	: cake
+    }
+
+    var allThings = {
+    	"message" : "Hello, we're going to have a 'therapy session'. How are you today?",
+    	"resonseHandler" : testResponseHandler,
+    	"catch" : "Excuse me?"
+    }
+
+    var position = allThings;
+
+
+    function processCommand(command){
+    	position =  position.resonseHandler[command];
+    	if (typeof position == "string") position = allThings;
+    }
+
+    function respond(){
+    	if (typeof position === "string"){
+    		//response = position
+    		//position = allThings;
+    		return "Oops";
+    	}
+
+    	return position.message;
+    }
 
 
 
 
     //Document Editing Sheit
-    
+
     var response = "Welcome :)<br/>";
     var message = "";
 
     function addText() {
       var command = document.getElementById("command").value;
-      response+= command;
+      processCommand(command);
+      response+= respond();
       response+= "<br/>";
 
 
