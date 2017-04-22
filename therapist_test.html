@@ -42,7 +42,8 @@
         "nope" : yesnoYN2.no
     };
 
-    var yes = {
+    var yesnoYN1 = {
+        yes : {
         "message" : "That's great, what would you like to tell me about?",
         "catch" : {
             "message" : "That sounds great! I'm glad everything's going well! is there anything else you'd like to talk about?",
@@ -51,24 +52,23 @@
                 "message" : "What do you want to talk about?",
                 "responseHandler" : responseHandlerTopic
             }
-                
-        }
-    };
-        var no = {
+        },
+        no : {
             "message" : "That's ok, is there something else you'd like to talk about?",
             "responseHandler" : responseHandlerYN2
-        };
-    var responseHandlerYN1 = {
-        "yes" : yes,
-        "sure" : yes,
-        "ok" : yes,
-        "why not" : yes,
-        "yeah" : yes,
-        "no" : no,
-        "nah" : no,
-        "nope" : no
+        }
     };
 
+    var responseHandlerYN1 = {
+        "yes" : yesnoYN1.yes,
+        "sure" : yesnoYN1.yes,
+        "ok" : yesnoYN1.yes,
+        "why not" : yesnoYN1.yes,
+        "yeah" : yesnoYN1.yes,
+        "no" : yesnoYN1.no,
+        "nah" : yesnoYN1.no,
+        "nope" : yesnoYN1.no
+    };
 
         var family = {
             "message" : "That's great! A good family support network is really important! Would you like to talk about your family?",
