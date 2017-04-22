@@ -44,13 +44,15 @@
 
     var yesnoYN1 = {
         yes : {
-        "message" : "That's great, what would you like to tell me about?",
-        "catch" : {
-            "message" : "That sounds great! I'm glad everything's going well! is there anything else you'd like to talk about?",
-            "responseHandler" : responseHandlerYN2,
+            "message" : "That's great, what would you like to tell me about?",
+            "responseHandler" : {},
             "catch" : {
-                "message" : "What do you want to talk about?",
-                "responseHandler" : responseHandlerTopic
+                "message" : "That sounds great! I'm glad everything's going well! is there anything else you'd like to talk about?",
+                "responseHandler" : responseHandlerYN2,
+                "catch" : {
+                    "message" : "What do you want to talk about?",
+                    "responseHandler" : responseHandlerTopic
+                }
             }
         },
         no : {
@@ -185,8 +187,9 @@
         "message" : "Oh that's good! What's been making you so happy?",
         "responseHandler" : responseHandlerGood,
         "catch" : {
-            "message" : "That sounds nice, I'm glad you're feeling good about life right now. Is there anything else you'd like to talk to me about?"
+            "message" : "That sounds nice, I'm glad you're feeling good about life right now. Is there anything else you'd like to talk to me about?",
             "responseHandler" : responseHandlerYN2
+        }
     };
 
 
