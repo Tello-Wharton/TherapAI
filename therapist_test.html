@@ -529,7 +529,13 @@
                 }
             },
             no : {
-                "message" : "Recognising that you need help is a great first step! here are the contact details of some professional support organisations who may be able to help you. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support"
+                "message" : "Recognising that you need help is a great first step! here are the contact details of some professional support organisations who may be able to help you. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support .Is there anything else you want to talk about?",
+                "responseHandler" : responseHandlerTopic,
+                "catch" : {
+                    "message" : "I don't really understand what you mean, it may be best to speak to a professional about that. Is there something else I can help with?",
+                    "responseHandler" : responseHandlerTopic,
+                    "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
+                }
             }
         };
 
@@ -552,7 +558,13 @@
 
         var yesnoYN3 = {
             yes : {
-                "message" : "Recognising that you need help is a great first step! here are the contact details of some professional support organisations who may be able to help you. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support"
+                "message" : "Recognising that you need help is a great first step! here are the contact details of some professional support organisations who may be able to help you. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support .Is there anything else you want to talk about?",
+                "responseHandler" : responseHandlerTopic,
+                "catch" : {
+                    "message" : "I don't really understand what you mean, it may be best to speak to a professional about that. Is there something else I can help with?",
+                    "responseHandler" : responseHandlerTopic,
+                    "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
+                }
             },
             maybe : {
                 "message" : "I can't help you further with that issue, so here are some contact details for support organisations if you feel they might be useful, https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support .Is there anything else you want to talk about?",
@@ -657,8 +669,9 @@
 
         makeBranch(allThings, responseHandler1);
         makeBranch(good, responseHandlerGood);
-        //makeBranch(work.good, responseHandlerYN1);
-        //makeBranch(schoolwork.good, responseHandlerYN1);
+        makeBranch(bad, responseHandlerBad);
+        makeBranch(work.good, responseHandlerYN1);
+        makeBranch(schoolwork.good, responseHandlerYN1);
         makeBranch(family.good, responseHandlerYN1);
         makeBranch(family.good.catch, responseHandlerYN1);
         //makeBranch(friendwork.good, responseHandlerYN1);
