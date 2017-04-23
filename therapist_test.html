@@ -1055,6 +1055,26 @@
             return tempResponse;
         }
 
+        function decodeSentence(sentence){
+            var trimmed = sentence.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").toLowerCase();
+            var split = trimmed.split(" ");
+
+            var keyword = "thiscouldnotpossiblywork"; 
+
+            Object.entries(position.responseHandler).forEach(
+                //([key, value]) => console.log(key, value)
+                function(key){
+                    //console.log(key[0]);
+                    split.forEach(function(word){
+                        if (word === key[0] && keyword === "thiscouldnotpossiblywork") keyword = word;
+                    });
+                }
+            );
+            console.log(keyword);
+
+            return keyword;
+        }
+
 
 
 
@@ -1066,7 +1086,7 @@
         function addText() {
             var command = document.getElementById("command").value;
             //processCommand(command);
-            response+= processCommand(command);
+            response+= processCommand(decodeSentence(command));
             response+= "<br/>";
 
 
