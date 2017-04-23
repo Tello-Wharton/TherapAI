@@ -30,8 +30,11 @@
             "bad" : {
                 "message" : ""
             },
+            "goodbad" : {
+                "message" : "How is that going?"
+            },
             responseEvent : function(){
-                console.log("YAY ELLA");
+                vine(this);
             }
         };
 
@@ -385,8 +388,11 @@
             return branch;
         }
 
-        function vine(){
-
+        function vine(topic){
+            console.log(topic);
+            topic.message = "Kill Me";
+            console.log("cake");
+            position = topic.goodbad;
         }
 
 
@@ -399,15 +405,15 @@
 
         makeBranch(allThings, responseHandler1);
         makeBranch(good, responseHandlerGood);
-        makeBranch(work.good, responseHandlerYN1);
-        makeBranch(schoolwork.good, responseHandlerYN1);
+        //makeBranch(work.good, responseHandlerYN1);
+        //makeBranch(schoolwork.good, responseHandlerYN1);
         makeBranch(family.good, responseHandlerYN1);
-        makeBranch(friendwork.good, responseHandlerYN1);
-        makeBranch(girlfriendwork.good, responseHandlerYN1);
-        makeBranch(boyfriendwork.good, responseHandlerYN1);
-        makeBranch(partnerwork.good, responseHandlerYN1);
-        makeBranch(holidaywork.good, responseHandlerYN1);
-        makeBranch(eventwork.good, responseHandlerYN1);
+        //makeBranch(friendwork.good, responseHandlerYN1);
+        //makeBranch(girlfriendwork.good, responseHandlerYN1);
+        //makeBranch(boyfriendwork.good, responseHandlerYN1);
+        //makeBranch(partnerwork.good, responseHandlerYN1);
+        //makeBranch(holidaywork.good, responseHandlerYN1);
+        //makeBranch(eventwork.good, responseHandlerYN1);
 
 
         //process a command
