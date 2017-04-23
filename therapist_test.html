@@ -21,7 +21,7 @@
         var family = {
             "good" : {
                 "message" : "That's great! A good family support network is really important! Would you like to talk about your family?",
-                "responseHandler" :responseHandlerYN1,
+                "responseHandler" : responseHandlerYN1,
                 "catch" : {
                     "message" : "I'm sorry I didn't understand you there. Could you explain?",
                     "responseHandler" : responseHandlerYN1
@@ -29,6 +29,9 @@
             },
             "bad" : {
                 "message" : ""
+            },
+            responseEvent : function(){
+                console.log("YAY ELLA");
             }
         };
 
@@ -382,6 +385,10 @@
             return branch;
         }
 
+        function vine(){
+
+        }
+
 
         var masterTopicLists = {
             good  : responseHandlerGood
@@ -392,15 +399,15 @@
 
         makeBranch(allThings, responseHandler1);
         makeBranch(good, responseHandlerGood);
-        makeBranch(work, responseHandlerYN1);
-        makeBranch(school, responseHandlerYN1);
-        makeBranch(family, responseHandlerYN1);
-        makeBranch(friend, responseHandlerYN1);
-        makeBranch(girlfriend, responseHandlerYN1);
-        makeBranch(boyfriend, responseHandlerYN1);
-        makeBranch(partner, responseHandlerYN1);
-        makeBranch(holiday, responseHandlerYN1);
-        makeBranch(event, responseHandlerYN1);
+        makeBranch(work.good, responseHandlerYN1);
+        makeBranch(schoolwork.good, responseHandlerYN1);
+        makeBranch(family.good, responseHandlerYN1);
+        makeBranch(friendwork.good, responseHandlerYN1);
+        makeBranch(girlfriendwork.good, responseHandlerYN1);
+        makeBranch(boyfriendwork.good, responseHandlerYN1);
+        makeBranch(partnerwork.good, responseHandlerYN1);
+        makeBranch(holidaywork.good, responseHandlerYN1);
+        makeBranch(eventwork.good, responseHandlerYN1);
 
 
         //process a command
