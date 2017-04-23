@@ -122,167 +122,167 @@
             }
         }
 
-    var responseHandlerTopic = {
-        "family" : family,
-        "school" : school,
-        "university" : university,
-        "friend" : friend,
-        "girlfriend" : girlfriend,
-        "boyfriend" : boyfriend,
-        "Wife" : girlfriend,
-        "Husband" : boyfriend,
-        "partner" : partner,
-        "holiday" : holiday,
-        "trip" : event,
-        "event" : event,
-        "wedding" : event,
-        "party" : event,
-        "night out" : event,
-        "date" : event,
-        "work" : work
-    };
+        var responseHandlerTopic = {
+            "family" : family,
+            "school" : school,
+            "university" : university,
+            "friend" : friend,
+            "girlfriend" : girlfriend,
+            "boyfriend" : boyfriend,
+            "Wife" : girlfriend,
+            "Husband" : boyfriend,
+            "partner" : partner,
+            "holiday" : holiday,
+            "trip" : event,
+            "event" : event,
+            "wedding" : event,
+            "party" : event,
+            "night out" : event,
+            "date" : event,
+            "work" : work
+        };
 
-    var yesnoYN2 = {
-        yes : {
-            "message" : "Great, what would you like to talk about?",
-            "responseHandler" : responseHandlerTopic,
-            "catch" : {
-                "message" : "Maybe we should talk about that in a later session. Is there anything else you want to speak about?",
-                "responseHandler" : responseHandlerTopic
-            }
-        },
-
-        no : {
-            "message" : "Ok! I'm glad you stopped by, I'll see you soon for our next session."
-        }
-    };
-    
-
-    var responseHandlerYN2 = {
-        "yes" : yesnoYN2.yes,
-        "sure" : yesnoYN2.yes,
-        "ok" : yesnoYN2.yes,
-        "why not" : yesnoYN2.yes,
-        "yeah" : yesnoYN2.yes,
-        "no" : yesnoYN2.no,
-        "nah" : yesnoYN2.no,
-        "nope" : yesnoYN2.no
-    };
-
-    var yesnoYN1 = {
-        yes : {
-            "message" : "That's great, what would you like to tell me about it?",
-            "responseHandler" : {},
-            "catch" : {
-                "message" : "That sounds great! I'm glad everything's going well! is there anything else you'd like to talk about?",
-                "responseHandler" : responseHandlerYN2,
+        var yesnoYN2 = {
+            yes : {
+                "message" : "Great, what would you like to talk about?",
+                "responseHandler" : responseHandlerTopic,
                 "catch" : {
-                    "message" : "What do you want to talk about?",
+                    "message" : "Maybe we should talk about that in a later session. Is there anything else you want to speak about?",
                     "responseHandler" : responseHandlerTopic
                 }
+            },
+
+            no : {
+                "message" : "Ok! I'm glad you stopped by, I'll see you soon for our next session."
             }
-        },
-        no : {
-            "message" : "That's ok, is there something else you'd like to talk about?",
-            "responseHandler" : responseHandlerYN2
-        }
-    };
+        };
+        
 
-    var responseHandlerYN1 = {
-        "yes" : yesnoYN1.yes,
-        "sure" : yesnoYN1.yes,
-        "ok" : yesnoYN1.yes,
-        "why not" : yesnoYN1.yes,
-        "yeah" : yesnoYN1.yes,
-        "no" : yesnoYN1.no,
-        "nah" : yesnoYN1.no,
-        "nope" : yesnoYN1.no
-    };
+        var responseHandlerYN2 = {
+            "yes" : yesnoYN2.yes,
+            "sure" : yesnoYN2.yes,
+            "ok" : yesnoYN2.yes,
+            "why not" : yesnoYN2.yes,
+            "yeah" : yesnoYN2.yes,
+            "no" : yesnoYN2.no,
+            "nah" : yesnoYN2.no,
+            "nope" : yesnoYN2.no
+        };
 
-    var responseHandlerGood = {
-        "family" : family.good,
-        "school" : school.good,
-        "university" : university.good,
-        "friend" : friend.good,
-        "girlfriend" : girlfriend.good,
-        "boyfriend" : boyfriend.good,
-        "Wife" : girlfriend.good,
-        "Husband" : boyfriend.good,
-        "partner" : partner.good,
-        "holiday" : holiday.good,
-        "trip" : event.good,
-        "event" : event.good,
-        "wedding" : event.good,
-        "party" : event.good,
-        "night out" : event.good,
-        "date" : event.good,
-        "work" : work.good
+        var yesnoYN1 = {
+            yes : {
+                "message" : "That's great, what would you like to tell me about it?",
+                "responseHandler" : {},
+                "catch" : {
+                    "message" : "That sounds great! I'm glad everything's going well! is there anything else you'd like to talk about?",
+                    "responseHandler" : responseHandlerYN2,
+                    "catch" : {
+                        "message" : "What do you want to talk about?",
+                        "responseHandler" : responseHandlerTopic
+                    }
+                }
+            },
+            no : {
+                "message" : "That's ok, is there something else you'd like to talk about?",
+                "responseHandler" : responseHandlerYN2
+            }
+        };
+
+        var responseHandlerYN1 = {
+            "yes" : yesnoYN1.yes,
+            "sure" : yesnoYN1.yes,
+            "ok" : yesnoYN1.yes,
+            "why not" : yesnoYN1.yes,
+            "yeah" : yesnoYN1.yes,
+            "no" : yesnoYN1.no,
+            "nah" : yesnoYN1.no,
+            "nope" : yesnoYN1.no
+        };
+
+        var responseHandlerGood = {
+            "family" : family.good,
+            "school" : school.good,
+            "university" : university.good,
+            "friend" : friend.good,
+            "girlfriend" : girlfriend.good,
+            "boyfriend" : boyfriend.good,
+            "Wife" : girlfriend.good,
+            "Husband" : boyfriend.good,
+            "partner" : partner.good,
+            "holiday" : holiday.good,
+            "trip" : event.good,
+            "event" : event.good,
+            "wedding" : event.good,
+            "party" : event.good,
+            "night out" : event.good,
+            "date" : event.good,
+            "work" : work.good
 
         };
 
-    var good = {
-        "message" : "Oh that's good! What's been making you so happy?",
-        "responseHandler" : responseHandlerGood,
+        var good = {
+            "message" : "Oh that's good! What's been making you so happy?",
+            "responseHandler" : responseHandlerGood,
 
-        responseEvent : function(){
-            mood = "good";
-            console.log("Mood: " + mood);
-        },
+            responseEvent : function(){
+                mood = "good";
+                console.log("Mood: " + mood);
+            },
 
-        "catch" : {
-            "message" : "That sounds nice, I'm glad you're feeling good about life right now. Is there anything else you'd like to talk to me about?",
-            "responseHandler" : responseHandlerYN2
-        }
-    };
-
-    var responseHandlerBad = {
-        "family" : family.bad,
-        "school" : school.bad,
-        "university" : university.bad,
-        "uni" : university.bad,
-        "friend" : friend.bad,
-        "girlfriend" : girlfriend.bad,
-        "boyfriend" : boyfriend.bad,
-        "Wife" : girlfriend.bad,
-        "Husband" : boyfriend.bad,
-        "partner" : partner.bad,
-        "holiday" : holiday.bad,
-        "trip" : event.bad,
-        "event" : event.bad,
-        "wedding" : event.bad,
-        "party" : event.bad,
-        "night out" : event.bad,
-        "date" : event.bad,
-        "work" : work.bad,
-        "anxious" : anxiety.bad,
-        "worried" : anxiety.bad,
-        "anxiety" : anxiety.bad,
-
-    };
-
-    var yesnoYN4 = {
-        yes : {
-            "message" : "Ok, it's always your decision whether or not to seek professional help and you shouldn't do so if you don't feel ready. Just know that help is always available if you need it. Is there anything else you'd like to talk about?",
-            "responseHandler" : responseHandlerTopic, //ToDo: need to change this to the masterlist handler later
             "catch" : {
-                "message" : "I don't really understand what you mean, it may be best to speak to a professional about that. Is there something else I can help with?",
-                "responseHandler" : responseHandlerTopic //ToDo: need to change this to the masterlist handler later
+                "message" : "That sounds nice, I'm glad you're feeling good about life right now. Is there anything else you'd like to talk to me about?",
+                "responseHandler" : responseHandlerYN2
             }
-        },
-        maybe : {
-            "message" : "I can't help you further with that issue, so here are some contact details for support organisations if you feel they might be useful. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support Is there anything else you want to talk about?",
-            "responseHandler" : responseHandlerTopic, //ToDo: need to change this to the masterlist handler later
-            "catch" : {
-                "message" : "I don't really understand what you mean, it may be best to speak to a professional about that. Is there something else I can help with?",
-                "responseHandler" : responseHandlerTopic //ToDo: need to change this to the masterlist handler later
-            }
-        },
-        no : {
-            "message" : "Recognising that you need help is a great first step! here are the contact details of some professional support organisations who may be able to help you. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support"
-        }
-    };
+        };
 
-    var responseHandlerYN4 = {
+        var responseHandlerBad = {
+            "family" : family.bad,
+            "school" : school.bad,
+            "university" : university.bad,
+            "uni" : university.bad,
+            "friend" : friend.bad,
+            "girlfriend" : girlfriend.bad,
+            "boyfriend" : boyfriend.bad,
+            "Wife" : girlfriend.bad,
+            "Husband" : boyfriend.bad,
+            "partner" : partner.bad,
+            "holiday" : holiday.bad,
+            "trip" : event.bad,
+            "event" : event.bad,
+            "wedding" : event.bad,
+            "party" : event.bad,
+            "night out" : event.bad,
+            "date" : event.bad,
+            "work" : work.bad,
+            "anxious" : anxiety.bad,
+            "worried" : anxiety.bad,
+            "anxiety" : anxiety.bad,
+
+        };
+
+        var yesnoYN4 = {
+            yes : {
+                "message" : "Ok, it's always your decision whether or not to seek professional help and you shouldn't do so if you don't feel ready. Just know that help is always available if you need it. Is there anything else you'd like to talk about?",
+                "responseHandler" : responseHandlerTopic, //ToDo: need to change this to the masterlist handler later
+                "catch" : {
+                    "message" : "I don't really understand what you mean, it may be best to speak to a professional about that. Is there something else I can help with?",
+                    "responseHandler" : responseHandlerTopic //ToDo: need to change this to the masterlist handler later
+                }
+            },
+            maybe : {
+                "message" : "I can't help you further with that issue, so here are some contact details for support organisations if you feel they might be useful. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support Is there anything else you want to talk about?",
+                "responseHandler" : responseHandlerTopic, //ToDo: need to change this to the masterlist handler later
+                "catch" : {
+                    "message" : "I don't really understand what you mean, it may be best to speak to a professional about that. Is there something else I can help with?",
+                    "responseHandler" : responseHandlerTopic //ToDo: need to change this to the masterlist handler later
+                }
+            },
+            no : {
+                "message" : "Recognising that you need help is a great first step! here are the contact details of some professional support organisations who may be able to help you. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support"
+            }
+        };
+
+        var responseHandlerYN4 = {
             "yes" : yesnoYN4.yes,
             "I'm sure" : yesnoYN4.yes,
             "sure" : yesnoYN4.yes,
@@ -299,173 +299,169 @@
             "nope" : yesnoYN4.no
         };
 
-var yesnoYN3 = {
-        yes : {
-            "message" : "Recognising that you need help is a great first step! here are the contact details of some professional support organisations who may be able to help you. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support"
-        },
-        maybe : {
-            "message" : "I can't help you further with that issue, so here are some contact details for support organisations if you feel they might be useful. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support Is there anything else you want to talk about?",
-            "responseHandler" : responseHandlerTopic, //ToDo: need to change this to the masterlist handler later
-            "catch" : {
-                "message" : "I don't really understand what you mean, it may be best to speak to a professional about that. Is there something else I can help with?",
-                "responseHandler" : responseHandlerTopic //ToDo: need to change this to the masterlist handler later
+        var yesnoYN3 = {
+            yes : {
+                "message" : "Recognising that you need help is a great first step! here are the contact details of some professional support organisations who may be able to help you. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support"
+            },
+            maybe : {
+                "message" : "I can't help you further with that issue, so here are some contact details for support organisations if you feel they might be useful. https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support Is there anything else you want to talk about?",
+                "responseHandler" : responseHandlerTopic, //ToDo: need to change this to the masterlist handler later
+                "catch" : {
+                    "message" : "I don't really understand what you mean, it may be best to speak to a professional about that. Is there something else I can help with?",
+                    "responseHandler" : responseHandlerTopic //ToDo: need to change this to the masterlist handler later
+                }
+            },
+            no : {
+                "message" : "Are you sure?",
+                "responseHandler" : responseHandlerYN4
             }
-        },
-        no : {
-            "message" : "Are you sure?",
-            "responseHandler" : responseHandlerYN4
-        }
-    };
-
-    var responseHandlerYN3 = {
-        "yes" : yesnoYN3.yes,
-        "sure" : yesnoYN3.yes,
-        "ok" : yesnoYN3.yes,
-        "why not" : yesnoYN3.yes,
-        "I guess" : yesnoYN3.yes,
-        "It might" : yesnoYN3.yes,
-        "yeah" : yesnoYN3.yes,
-        "maybe" : yesnoYN3.maybe,
-        "I'm not sure" : yesnoYN3.maybe,
-        "no" : yesnoYN3.no,
-        "nah" : yesnoYN3.no,
-        "nope" : yesnoYN3.no
-    };
-
-    var bad = {
-        "message" : "Oh no, what's been troubling you?",
-        "responseHandler" : responseHandlerBad,
-        responseEvent : function(){
-            mood = "bad";
-            console.log("Mood: " + mood);
-        },
-        "catch" : {
-            "message" : "I'm not really qualified to advise you on that I'm afraid. If you're having problems I can direct you to a professional, do you think that would help?",
-            "responseHandler" : responseHandlerYN3
-        }
-
-    };
-
-    var cake = {
-        "message" : "CAKE!"
-    };
-
-    var allThings = {
-        "message" : "Hello, we're going to have a 'therapy session'. How are you today?",
-        "responseHandler" : responseHandler1,
-        "catch" : "Sorry, I didn't understand that, could you explain?"
-    };
-
-    var responseHandler1 = {
-        "good"  : good,
-        "great" : good,
-        "awesome" : good,
-        "bad"   : bad,
-        "shitty" : bad,
-        "shit" : bad,
-        "awful" : bad,
-        "terrible" : bad,
-        "cake"  : cake
-    };
-
-    var position = allThings;
-
-
-    function makeBranch(question, responseHandler){
-        var branch = {
-            question : question,
-            responseHandler : responseHandler
         };
 
-        branch.question.responseHandler = branch.responseHandler;
+        var responseHandlerYN3 = {
+            "yes" : yesnoYN3.yes,
+            "sure" : yesnoYN3.yes,
+            "ok" : yesnoYN3.yes,
+            "why not" : yesnoYN3.yes,
+            "I guess" : yesnoYN3.yes,
+            "It might" : yesnoYN3.yes,
+            "yeah" : yesnoYN3.yes,
+            "maybe" : yesnoYN3.maybe,
+            "I'm not sure" : yesnoYN3.maybe,
+            "no" : yesnoYN3.no,
+            "nah" : yesnoYN3.no,
+            "nope" : yesnoYN3.no
+        };
 
-        return branch;
-    }
-
-    function secureLink(responseHandler, question){
-
-    }
-
-
-    var masterTopicLists = {
-      good  : responseHandlerGood
-      //bad   : responseHandlerBad  
-    };
-    //Init
-
-
-    makeBranch(allThings, responseHandler1);
-    makeBranch(good, responseHandlerGood);
-    makeBranch(work, responseHandlerYN1);
-    makeBranch(school, responseHandlerYN1);
-    makeBranch(family, responseHandlerYN1);
-    makeBranch(friend, responseHandlerYN1);
-    makeBranch(girlfriend, responseHandlerYN1);
-    makeBranch(boyfriend, responseHandlerYN1);
-    makeBranch(partner, responseHandlerYN1);
-    makeBranch(holiday, responseHandlerYN1);
-    makeBranch(event, responseHandlerYN1);
-
-
-    //process a command
-    function processCommand(command){
-        
-        var thecatch = position.catch;
-        var oldposition = position;
-
-        //Clear this later
-
-        position =  position.responseHandler[command];
-
-        if (position == undefined) {
-            console.log("WARN: Does the response handler have a corresponding command? It's not here");
-            if (typeof thecatch == "string") {
-                position = oldposition;
-                return thecatch;
-            }else{
-                if (thecatch == undefined) {
-                    thecatch = allThings;
-                    //HERE!
-                }
-                position = thecatch;
+        var bad = {
+            "message" : "Oh no, what's been troubling you?",
+            "responseHandler" : responseHandlerBad,
+            responseEvent : function(){
+                mood = "bad";
+                console.log("Mood: " + mood);
+            },
+            "catch" : {
+                "message" : "I'm not really qualified to advise you on that I'm afraid. If you're having problems I can direct you to a professional, do you think that would help?",
+                "responseHandler" : responseHandlerYN3
             }
+
+        };
+
+        var cake = {
+            "message" : "CAKE!"
+        };
+
+        var allThings = {
+            "message" : "Hello, we're going to have a 'therapy session'. How are you today?",
+            "responseHandler" : responseHandler1,
+            "catch" : "Sorry, I didn't understand that, could you explain?"
+        };
+
+        var responseHandler1 = {
+            "good"  : good,
+            "great" : good,
+            "awesome" : good,
+            "bad"   : bad,
+            "shitty" : bad,
+            "shit" : bad,
+            "awful" : bad,
+            "terrible" : bad,
+            "cake"  : cake
+        };
+
+        var position = allThings;
+
+
+        function makeBranch(question, responseHandler){
+            var branch = {
+                question : question,
+                responseHandler : responseHandler
+            };
+
+            branch.question.responseHandler = branch.responseHandler;
+
+            return branch;
         }
 
-        if (position.responseEvent != undefined) {
-            position.responseEvent();
-        }
 
-        var tempResponse = position.message;
+        var masterTopicLists = {
+            good  : responseHandlerGood
+          //bad   : responseHandlerBad  
+        };
+        //Init
 
-        if (position.responseHandler == undefined) {
+
+        makeBranch(allThings, responseHandler1);
+        makeBranch(good, responseHandlerGood);
+        makeBranch(work, responseHandlerYN1);
+        makeBranch(school, responseHandlerYN1);
+        makeBranch(family, responseHandlerYN1);
+        makeBranch(friend, responseHandlerYN1);
+        makeBranch(girlfriend, responseHandlerYN1);
+        makeBranch(boyfriend, responseHandlerYN1);
+        makeBranch(partner, responseHandlerYN1);
+        makeBranch(holiday, responseHandlerYN1);
+        makeBranch(event, responseHandlerYN1);
+
+
+        //process a command
+        function processCommand(command){
             
-            console.log("ERROR: Does the response to this keyword have a corresponding response handler?");
+            var thecatch = position.catch;
+            var oldposition = position;
 
-            //return "Oh No";
+            //Clear this later
+
+            position =  position.responseHandler[command];
+
+            if (position == undefined) {
+                console.log("WARN: Does the response handler have a corresponding command? It's not here");
+                if (typeof thecatch == "string") {
+                    position = oldposition;
+                    return thecatch;
+                }else{
+                    if (thecatch == undefined) {
+                        thecatch = allThings;
+                        //HERE!
+                    }
+                    position = thecatch;
+                }
+            }
+
+            if (position.responseEvent != undefined) {
+                position.responseEvent();
+            }
+
+            var tempResponse = position.message;
+
+            if (position.responseHandler == undefined) {
+                
+                console.log("ERROR: Does the response to this keyword have a corresponding response handler?");
+
+                //return "Oh No";
+            }
+            return tempResponse;
         }
-        return tempResponse;
-    }
 
 
 
 
-    //Document Editing Sheit
+        //Document Editing Sheit
 
-    var response = allThings.message + "<br/>";
-    var message = "";
+        var response = allThings.message + "<br/>";
+        var message = "";
 
-    function addText() {
-      var command = document.getElementById("command").value;
-      //processCommand(command);
-      response+= processCommand(command);
-      response+= "<br/>";
+        function addText() {
+            var command = document.getElementById("command").value;
+            //processCommand(command);
+            response+= processCommand(command);
+            response+= "<br/>";
 
 
-      document.getElementById("console").innerHTML=response;
-      document.getElementById("command").value="";
+            document.getElementById("console").innerHTML=response;
+            document.getElementById("command").value="";
 
-      return false;
-    }
+            return false;
+        }
 
     </script>
 
@@ -477,7 +473,7 @@ var yesnoYN3 = {
 
     <script>
 
-    document.getElementById("console").innerHTML=response;
+        document.getElementById("console").innerHTML=response;
 
     </script>
 
