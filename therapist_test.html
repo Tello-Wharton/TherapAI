@@ -38,7 +38,9 @@
                 }                
             },
             "goodbad" : {
-                "message" : "How is that going?"
+                "message" : "Is that going well?",
+                "responseHandler" : undefined, //Wait for responseEvent
+                "catch" : "well poo"
             },
             responseEvent : function(){
                 vine(this);
@@ -639,6 +641,7 @@
             topic.message = "Kill Me";
             console.log("cake");
             position = topic.goodbad;
+            if (position.responseHandler == undefined) console.log("WARN: you're switching branch without a defined responseHandler");
         }
 
 
