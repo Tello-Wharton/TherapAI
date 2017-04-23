@@ -1,0 +1,1742 @@
+fileFormatVersion: 2
+guid: 22add417d22a59f46a30e152866179a1
+timeCreated: 1492909460
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body
+    100002: Circle
+    100004: Cube.000
+    100006: Cube.001
+    100008: eye.l
+    100010: eye.l_end
+    100012: eye.r
+    100014: eye.r_end
+    100016: eyebody.l
+    100018: eyebody.r
+    100020: eyelidl.l
+    100022: eyelidl.l_end
+    100024: eyelidl.r
+    100026: eyelidl.r_end
+    100028: eyelidU.l
+    100030: eyelidU.l_end
+    100032: eyelidU.r
+    100034: eyelidU.r_end
+    100036: hat
+    100038: hat_end
+    100040: head
+    100042: head2
+    100044: head3
+    100046: head3_end
+    100048: //RootNode
+    100050: octopussy_skelly
+    100052: tent1_0.l
+    100054: tent1_0.l.001
+    100056: tent1_0.r
+    100058: tent1_0.r.001
+    100060: tent1_1.l
+    100062: tent1_1.l.001
+    100064: tent1_1.r
+    100066: tent1_1.r.001
+    100068: tent1_2.l
+    100070: tent1_2.l.001
+    100072: tent1_2.r
+    100074: tent1_2.r.001
+    100076: tent1_3.l
+    100078: tent1_3.l.001
+    100080: tent1_3.r
+    100082: tent1_3.r.001
+    100084: tent1_4.l
+    100086: tent1_4.l.001
+    100088: tent1_4.r
+    100090: tent1_4.r.001
+    100092: tent1_5.l
+    100094: tent1_5.l.001
+    100096: tent1_5.r
+    100098: tent1_5.r.001
+    100100: tent1_6.l
+    100102: tent1_6.l.001
+    100104: tent1_6.r
+    100106: tent1_6.r.001
+    100108: tent1_7.l
+    100110: tent1_7.l.001
+    100112: tent1_7.l.001_end
+    100114: tent1_7.l_end
+    100116: tent1_7.r
+    100118: tent1_7.r.001
+    100120: tent1_7.r.001_end
+    100122: tent1_7.r_end
+    100124: tent1_base.l
+    100126: tent1_base.l.001
+    100128: tent1_base.r
+    100130: tent1_base.r.001
+    100132: tent2_0.l
+    100134: tent2_0.l.001
+    100136: tent2_0.r
+    100138: tent2_0.r.001
+    100140: tent2_1.l
+    100142: tent2_1.l.001
+    100144: tent2_1.r
+    100146: tent2_1.r.001
+    100148: tent2_2.l
+    100150: tent2_2.l.001
+    100152: tent2_2.r
+    100154: tent2_2.r.001
+    100156: tent2_3.l
+    100158: tent2_3.l.001
+    100160: tent2_3.r
+    100162: tent2_3.r.001
+    100164: tent2_4.l
+    100166: tent2_4.l.001
+    100168: tent2_4.r
+    100170: tent2_4.r.001
+    100172: tent2_5.l
+    100174: tent2_5.l.001
+    100176: tent2_5.r
+    100178: tent2_5.r.001
+    100180: tent2_6.l
+    100182: tent2_6.l.001
+    100184: tent2_6.r
+    100186: tent2_6.r.001
+    100188: tent2_7.l
+    100190: tent2_7.l.001
+    100192: tent2_7.l.001_end
+    100194: tent2_7.l_end
+    100196: tent2_7.r
+    100198: tent2_7.r.001
+    100200: tent2_7.r.001_end
+    100202: tent2_7.r_end
+    100204: tent2_base.l
+    100206: tent2_base.l.001
+    100208: tent2_base.r
+    100210: tent2_base.r.001
+    400000: body
+    400002: Circle
+    400004: Cube.000
+    400006: Cube.001
+    400008: eye.l
+    400010: eye.l_end
+    400012: eye.r
+    400014: eye.r_end
+    400016: eyebody.l
+    400018: eyebody.r
+    400020: eyelidl.l
+    400022: eyelidl.l_end
+    400024: eyelidl.r
+    400026: eyelidl.r_end
+    400028: eyelidU.l
+    400030: eyelidU.l_end
+    400032: eyelidU.r
+    400034: eyelidU.r_end
+    400036: hat
+    400038: hat_end
+    400040: head
+    400042: head2
+    400044: head3
+    400046: head3_end
+    400048: //RootNode
+    400050: octopussy_skelly
+    400052: tent1_0.l
+    400054: tent1_0.l.001
+    400056: tent1_0.r
+    400058: tent1_0.r.001
+    400060: tent1_1.l
+    400062: tent1_1.l.001
+    400064: tent1_1.r
+    400066: tent1_1.r.001
+    400068: tent1_2.l
+    400070: tent1_2.l.001
+    400072: tent1_2.r
+    400074: tent1_2.r.001
+    400076: tent1_3.l
+    400078: tent1_3.l.001
+    400080: tent1_3.r
+    400082: tent1_3.r.001
+    400084: tent1_4.l
+    400086: tent1_4.l.001
+    400088: tent1_4.r
+    400090: tent1_4.r.001
+    400092: tent1_5.l
+    400094: tent1_5.l.001
+    400096: tent1_5.r
+    400098: tent1_5.r.001
+    400100: tent1_6.l
+    400102: tent1_6.l.001
+    400104: tent1_6.r
+    400106: tent1_6.r.001
+    400108: tent1_7.l
+    400110: tent1_7.l.001
+    400112: tent1_7.l.001_end
+    400114: tent1_7.l_end
+    400116: tent1_7.r
+    400118: tent1_7.r.001
+    400120: tent1_7.r.001_end
+    400122: tent1_7.r_end
+    400124: tent1_base.l
+    400126: tent1_base.l.001
+    400128: tent1_base.r
+    400130: tent1_base.r.001
+    400132: tent2_0.l
+    400134: tent2_0.l.001
+    400136: tent2_0.r
+    400138: tent2_0.r.001
+    400140: tent2_1.l
+    400142: tent2_1.l.001
+    400144: tent2_1.r
+    400146: tent2_1.r.001
+    400148: tent2_2.l
+    400150: tent2_2.l.001
+    400152: tent2_2.r
+    400154: tent2_2.r.001
+    400156: tent2_3.l
+    400158: tent2_3.l.001
+    400160: tent2_3.r
+    400162: tent2_3.r.001
+    400164: tent2_4.l
+    400166: tent2_4.l.001
+    400168: tent2_4.r
+    400170: tent2_4.r.001
+    400172: tent2_5.l
+    400174: tent2_5.l.001
+    400176: tent2_5.r
+    400178: tent2_5.r.001
+    400180: tent2_6.l
+    400182: tent2_6.l.001
+    400184: tent2_6.r
+    400186: tent2_6.r.001
+    400188: tent2_7.l
+    400190: tent2_7.l.001
+    400192: tent2_7.l.001_end
+    400194: tent2_7.l_end
+    400196: tent2_7.r
+    400198: tent2_7.r.001
+    400200: tent2_7.r.001_end
+    400202: tent2_7.r_end
+    400204: tent2_base.l
+    400206: tent2_base.l.001
+    400208: tent2_base.r
+    400210: tent2_base.r.001
+    4300000: Cube.000
+    4300002: Cube.001
+    4300004: Circle
+    7400000: octopussy_skelly|blink
+    7400002: octopussy_skelly|happy
+    7400004: octopussy_skelly|idle
+    7400006: octopussy_skelly|sad
+    7400008: octopussy_skelly|speak
+    7400010: octopussy_skelly|hat
+    9500000: //RootNode
+    13700000: Circle
+    13700002: Cube.000
+    13700004: Cube.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: octopussy_skelly|blink
+      takeName: octopussy_skelly|blink
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle
+        weight: 1
+      - path: Cube.000
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: octopussy_skelly
+        weight: 1
+      - path: octopussy_skelly/body
+        weight: 1
+      - path: octopussy_skelly/body/head
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eye.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eye.l/eye.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidl.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidl.l/eyelidl.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidU.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidU.l/eyelidU.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eye.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eye.r/eye.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidl.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidl.r/eyelidl.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidU.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidU.r/eyelidU.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/head2
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/hat
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/hat/hat_end
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/head3
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/head3/head3_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l/tent1_7.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l/tent1_7.l/tent1_7.l_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001/tent1_7.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001/tent1_7.l.001/tent1_7.l.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r/tent1_7.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r/tent1_7.r/tent1_7.r_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001/tent1_7.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001/tent1_7.r.001/tent1_7.r.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l/tent2_7.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l/tent2_7.l/tent2_7.l_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001/tent2_7.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001/tent2_7.l.001/tent2_7.l.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r/tent2_7.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r/tent2_7.r/tent2_7.r_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001/tent2_7.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001/tent2_7.r.001/tent2_7.r.001_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: octopussy_skelly|happy
+      takeName: octopussy_skelly|happy
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle
+        weight: 1
+      - path: Cube.000
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: octopussy_skelly
+        weight: 1
+      - path: octopussy_skelly/body
+        weight: 1
+      - path: octopussy_skelly/body/head
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eye.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eye.l/eye.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidl.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidl.l/eyelidl.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidU.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidU.l/eyelidU.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eye.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eye.r/eye.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidl.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidl.r/eyelidl.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidU.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidU.r/eyelidU.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/head2
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/hat
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/hat/hat_end
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/head3
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/head3/head3_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l/tent1_7.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l/tent1_7.l/tent1_7.l_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001/tent1_7.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001/tent1_7.l.001/tent1_7.l.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r/tent1_7.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r/tent1_7.r/tent1_7.r_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001/tent1_7.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001/tent1_7.r.001/tent1_7.r.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l/tent2_7.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l/tent2_7.l/tent2_7.l_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001/tent2_7.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001/tent2_7.l.001/tent2_7.l.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r/tent2_7.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r/tent2_7.r/tent2_7.r_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001/tent2_7.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001/tent2_7.r.001/tent2_7.r.001_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: octopussy_skelly|idle
+      takeName: octopussy_skelly|idle
+      firstFrame: 0
+      lastFrame: 478
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle
+        weight: 1
+      - path: Cube.000
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: octopussy_skelly
+        weight: 1
+      - path: octopussy_skelly/body
+        weight: 1
+      - path: octopussy_skelly/body/head
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eye.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eye.l/eye.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidl.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidl.l/eyelidl.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidU.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidU.l/eyelidU.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eye.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eye.r/eye.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidl.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidl.r/eyelidl.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidU.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidU.r/eyelidU.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/head2
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/hat
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/hat/hat_end
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/head3
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/head3/head3_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l/tent1_7.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l/tent1_7.l/tent1_7.l_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001/tent1_7.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001/tent1_7.l.001/tent1_7.l.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r/tent1_7.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r/tent1_7.r/tent1_7.r_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001/tent1_7.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001/tent1_7.r.001/tent1_7.r.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l/tent2_7.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l/tent2_7.l/tent2_7.l_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001/tent2_7.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001/tent2_7.l.001/tent2_7.l.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r/tent2_7.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r/tent2_7.r/tent2_7.r_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001/tent2_7.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001/tent2_7.r.001/tent2_7.r.001_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: octopussy_skelly|sad
+      takeName: octopussy_skelly|sad
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle
+        weight: 1
+      - path: Cube.000
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: octopussy_skelly
+        weight: 1
+      - path: octopussy_skelly/body
+        weight: 1
+      - path: octopussy_skelly/body/head
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eye.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eye.l/eye.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidl.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidl.l/eyelidl.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidU.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidU.l/eyelidU.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eye.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eye.r/eye.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidl.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidl.r/eyelidl.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidU.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidU.r/eyelidU.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/head2
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/hat
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/hat/hat_end
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/head3
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/head3/head3_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l/tent1_7.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l/tent1_7.l/tent1_7.l_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001/tent1_7.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001/tent1_7.l.001/tent1_7.l.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r/tent1_7.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r/tent1_7.r/tent1_7.r_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001/tent1_7.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001/tent1_7.r.001/tent1_7.r.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l/tent2_7.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l/tent2_7.l/tent2_7.l_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001/tent2_7.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001/tent2_7.l.001/tent2_7.l.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r/tent2_7.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r/tent2_7.r/tent2_7.r_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001/tent2_7.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001/tent2_7.r.001/tent2_7.r.001_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: octopussy_skelly|speak
+      takeName: octopussy_skelly|speak
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle
+        weight: 1
+      - path: Cube.000
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: octopussy_skelly
+        weight: 1
+      - path: octopussy_skelly/body
+        weight: 1
+      - path: octopussy_skelly/body/head
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eye.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eye.l/eye.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidl.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidl.l/eyelidl.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidU.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidU.l/eyelidU.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eye.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eye.r/eye.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidl.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidl.r/eyelidl.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidU.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidU.r/eyelidU.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/head2
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/hat
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/hat/hat_end
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/head3
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/head3/head3_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l/tent1_7.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l/tent1_7.l/tent1_7.l_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001/tent1_7.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001/tent1_7.l.001/tent1_7.l.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r/tent1_7.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r/tent1_7.r/tent1_7.r_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001/tent1_7.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001/tent1_7.r.001/tent1_7.r.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l/tent2_7.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l/tent2_7.l/tent2_7.l_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001/tent2_7.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001/tent2_7.l.001/tent2_7.l.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r/tent2_7.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r/tent2_7.r/tent2_7.r_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001/tent2_7.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001/tent2_7.r.001/tent2_7.r.001_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: octopussy_skelly|hat
+      takeName: octopussy_skelly|hat
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle
+        weight: 1
+      - path: Cube.000
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: octopussy_skelly
+        weight: 1
+      - path: octopussy_skelly/body
+        weight: 1
+      - path: octopussy_skelly/body/head
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eye.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eye.l/eye.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidl.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidl.l/eyelidl.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidU.l
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.l/eyelidU.l/eyelidU.l_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eye.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eye.r/eye.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidl.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidl.r/eyelidl.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidU.r
+        weight: 1
+      - path: octopussy_skelly/body/head/eyebody.r/eyelidU.r/eyelidU.r_end
+        weight: 1
+      - path: octopussy_skelly/body/head/head2
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/hat
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/hat/hat_end
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/head3
+        weight: 1
+      - path: octopussy_skelly/body/head/head2/head3/head3_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l/tent1_7.l
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l/tent1_0.l/tent1_1.l/tent1_2.l/tent1_3.l/tent1_4.l/tent1_5.l/tent1_6.l/tent1_7.l/tent1_7.l_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001/tent1_7.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.l.001/tent1_0.l.001/tent1_1.l.001/tent1_2.l.001/tent1_3.l.001/tent1_4.l.001/tent1_5.l.001/tent1_6.l.001/tent1_7.l.001/tent1_7.l.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r/tent1_7.r
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r/tent1_0.r/tent1_1.r/tent1_2.r/tent1_3.r/tent1_4.r/tent1_5.r/tent1_6.r/tent1_7.r/tent1_7.r_end
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001/tent1_7.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent1_base.r.001/tent1_0.r.001/tent1_1.r.001/tent1_2.r.001/tent1_3.r.001/tent1_4.r.001/tent1_5.r.001/tent1_6.r.001/tent1_7.r.001/tent1_7.r.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l/tent2_7.l
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l/tent2_0.l/tent2_1.l/tent2_2.l/tent2_3.l/tent2_4.l/tent2_5.l/tent2_6.l/tent2_7.l/tent2_7.l_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001/tent2_7.l.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.l.001/tent2_0.l.001/tent2_1.l.001/tent2_2.l.001/tent2_3.l.001/tent2_4.l.001/tent2_5.l.001/tent2_6.l.001/tent2_7.l.001/tent2_7.l.001_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r/tent2_7.r
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r/tent2_0.r/tent2_1.r/tent2_2.r/tent2_3.r/tent2_4.r/tent2_5.r/tent2_6.r/tent2_7.r/tent2_7.r_end
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001/tent2_7.r.001
+        weight: 1
+      - path: octopussy_skelly/body/tent2_base.r.001/tent2_0.r.001/tent2_1.r.001/tent2_2.r.001/tent2_3.r.001/tent2_4.r.001/tent2_5.r.001/tent2_6.r.001/tent2_7.r.001/tent2_7.r.001_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
