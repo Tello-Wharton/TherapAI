@@ -39,12 +39,23 @@
             },
             "goodbad" : {
                 "message" : "Is that going well?",
-                "responseHandler" : undefined, //Wait for responseEvent
+                "responseHandler" : responseHandlerGoodBad1, //Wait for responseEvent
                 "catch" : "well poo"
             },
             responseEvent : function(){
                 vine(this);
             }
+        };
+
+        var responseHandlerGoodBad1 = {
+            "yes" : family.good,
+            "sure" : family.good,
+            "ok" : family.good,
+            "why not" : family.good,
+            "yeah" : family.good,
+            "no" : family.bad,
+            "nah" : family.bad,
+            "nope" : family.bad        
         };
 
         var school = {
@@ -65,12 +76,31 @@
                     "responseHandler" : responseHandlerYN5,
                     "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
                 }
+            },
+            "goodbad" : {
+                "message" : "Is that going well?",
+                "responseHandler" : responseHandlerGoodBad2, //Wait for responseEvent
+                "catch" : "well poo"
+            },
+            responseEvent : function(){
+                vine(this);
             }
-         };
+        };
+
+        var responseHandlerGoodBad2 = {
+            "yes" : school.good,
+            "sure" : school.good,
+            "ok" : school.good,
+            "why not" : school.good,
+            "yeah" : school.good,
+            "no" : school.bad,
+            "nah" : school.bad,
+            "nope" : school.bad        
+        };
 
         var university = {
             "good" : {
-                "message" : "I'm glad uni is going well. I hope youre not too stressed about exams?",
+                "message" : "I'm glad uni is going well. I hope you're not too stressed about exams! Would you like to talk about uni?",
                 "responseHandler" :responseHandlerYN1,
                 "catch" : {
                     "message" : "I'm sorry I didn't understand you there. Would you like to talk?",
@@ -86,7 +116,26 @@
                     "responseHandler" : responseHandlerYN5,
                     "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
                 }
-            }  
+            },
+            "goodbad" : {
+                "message" : "Is that going well?",
+                "responseHandler" : responseHandlerGoodBad3, //Wait for responseEvent
+                "catch" : "well poo"
+            },
+            responseEvent : function(){
+                vine(this);
+            }
+        };
+
+        var responseHandlerGoodBad3 = {
+            "yes" : university.good,
+            "sure" : university.good,
+            "ok" : university.good,
+            "why not" : university.good,
+            "yeah" : university.good,
+            "no" : university.bad,
+            "nah" : university.bad,
+            "nope" : university.bad        
         };
 
         var friend = {
@@ -107,7 +156,26 @@
                     "responseHandler" : responseHandlerYN5,
                     "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
                 }
+            },
+            "goodbad" : {
+                "message" : "Is that going well?",
+                "responseHandler" : responseHandlerGoodBad4, //Wait for responseEvent
+                "catch" : "well poo"
+            },
+            responseEvent : function(){
+                vine(this);
             }
+        };
+
+        var responseHandlerGoodBad4 = {
+            "yes" : friend.good,
+            "sure" : friend.good,
+            "ok" : friend.good,
+            "why not" : friend.good,
+            "yeah" : friend.good,
+            "no" : friend.bad,
+            "nah" : friend.bad,
+            "nope" : friend.bad        
         };
 
         var girlfriend = {
@@ -128,7 +196,26 @@
                     "responseHandler" : responseHandlerYN5,
                     "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
                 }
+            },
+            "goodbad" : {
+                "message" : "Is that going well?",
+                "responseHandler" : responseHandlerGoodBad5, //Wait for responseEvent
+                "catch" : "well poo"
+            },
+            responseEvent : function(){
+                vine(this);
             }
+        };
+
+        var responseHandlerGoodBad5 = {
+            "yes" : girlfriend.good,
+            "sure" : girlfriend.good,
+            "ok" : girlfriend.good,
+            "why not" : girlfriend.good,
+            "yeah" : girlfriend.good,
+            "no" : girlfriend.bad,
+            "nah" : girlfriend.bad,
+            "nope" : girlfriend.bad        
         };
 
         var boyfriend = {
@@ -149,7 +236,26 @@
                     "responseHandler" : responseHandlerYN5,
                     "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
                 }
+            },
+            "goodbad" : {
+                "message" : "Is that going well?",
+                "responseHandler" : responseHandlerGoodBad6, //Wait for responseEvent
+                "catch" : "well poo"
+            },
+            responseEvent : function(){
+                vine(this);
             }
+        };
+
+        var responseHandlerGoodBad6 = {
+            "yes" : boyfriend.good,
+            "sure" : boyfriend.good,
+            "ok" : boyfriend.good,
+            "why not" : boyfriend.good,
+            "yeah" : boyfriend.good,
+            "no" : boyfriend.bad,
+            "nah" : boyfriend.bad,
+            "nope" : boyfriend.bad        
         };
 
         var partner = {
@@ -170,7 +276,26 @@
                     "responseHandler" : responseHandlerYN5,
                     "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
                 }
+            },
+            "goodbad" : {
+                "message" : "Is that going well?",
+                "responseHandler" : responseHandlerGoodBad7, //Wait for responseEvent
+                "catch" : "well poo"
+            },
+            responseEvent : function(){
+                vine(this);
             }
+        };
+
+        var responseHandlerGoodBad7 = {
+            "yes" : partner.good,
+            "sure" : partner.good,
+            "ok" : partner.good,
+            "why not" : partner.good,
+            "yeah" : partner.good,
+            "no" : partner.bad,
+            "nah" : partner.bad,
+            "nope" : partner.bad        
         };
 
         var holiday = {
@@ -191,7 +316,26 @@
                     "responseHandler" : responseHandlerYN5,
                     "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
                 }
+            },
+            "goodbad" : {
+                "message" : "Is that going well?",
+                "responseHandler" : responseHandlerGoodBad8, //Wait for responseEvent
+                "catch" : "well poo"
+            },
+            responseEvent : function(){
+                vine(this);
             }
+        };
+
+        var responseHandlerGoodBad8 = {
+            "yes" : holiday.good,
+            "sure" : holiday.good,
+            "ok" : holiday.good,
+            "why not" : holiday.good,
+            "yeah" : holiday.good,
+            "no" : holiday.bad,
+            "nah" : holiday.bad,
+            "nope" : holiday.bad        
         };
 
         var event = {
@@ -212,7 +356,26 @@
                     "responseHandler" : responseHandlerYN5,
                     "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
                 }
+            },
+            "goodbad" : {
+                "message" : "Is that going well?",
+                "responseHandler" : responseHandlerGoodBad9, //Wait for responseEvent
+                "catch" : "well poo"
+            },
+            responseEvent : function(){
+                vine(this);
             }
+        };
+
+        var responseHandlerGoodBad9 = {
+            "yes" : event.good,
+            "sure" : event.good,
+            "ok" : event.good,
+            "why not" : event.good,
+            "yeah" : event.good,
+            "no" : event.bad,
+            "nah" : event.bad,
+            "nope" : event.bad        
         };
 
         var work = {
@@ -233,7 +396,26 @@
                     "responseHandler" : responseHandlerYN5,
                     "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
                 }
+            },
+            "goodbad" : {
+                "message" : "Is that going well?",
+                "responseHandler" : responseHandlerGoodBad10, //Wait for responseEvent
+                "catch" : "well poo"
+            },
+            responseEvent : function(){
+                vine(this);
             }
+        };
+
+        var responseHandlerGoodBad10 = {
+            "yes" : work.good,
+            "sure" : work.good,
+            "ok" : work.good,
+            "why not" : work.good,
+            "yeah" : work.good,
+            "no" : work.bad,
+            "nah" : work.bad,
+            "nope" : work.bad        
         };
 
         var anxiety = {
@@ -254,7 +436,26 @@
                     "responseHandler" : responseHandlerYN5,
                     "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
                 }
+            },
+            "goodbad" : {
+                "message" : "Is that going well?",
+                "responseHandler" : responseHandlerGoodBad11, //Wait for responseEvent
+                "catch" : "well poo"
+            },
+            responseEvent : function(){
+                vine(this);
             }
+        };
+
+        var responseHandlerGoodBad11 = {
+            "yes" : anxiety.good,
+            "sure" : anxiety.good,
+            "ok" : anxiety.good,
+            "why not" : anxiety.good,
+            "yeah" : anxiety.good,
+            "no" : anxiety.bad,
+            "nah" : anxiety.bad,
+            "nope" : anxiety.bad        
         };
 
         var depression = {
@@ -275,16 +476,35 @@
                     "responseHandler" : responseHandlerYN5,
                     "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
                 }
+            },
+            "goodbad" : {
+                "message" : "Is that going well?",
+                "responseHandler" : responseHandlerGoodBad12, //Wait for responseEvent
+                "catch" : "well poo"
+            },
+            responseEvent : function(){
+                vine(this);
             }
+        };
+
+        var responseHandlerGoodBad12 = {
+            "yes" : depression.good,
+            "sure" : depression.good,
+            "ok" : depression.good,
+            "why not" : depression.good,
+            "yeah" : depression.good,
+            "no" : depression.bad,
+            "nah" : depression.bad,
+            "nope" : depression.bad        
         };
 
         var existential_dread = {
             "good" : {
                 "message" : "Well I'm glad you're feeling better about the inevitable nothingness to which we must all one day return. Would you like to discuss it further?",
-                "responseHandler" : responseHandlerYN5,
+                "responseHandler" : responseHandlerYN1,
                 "catch" : {
                     "message" : "I'm sorry I didn't understand you there. Would you like to talk?",
-                    "responseHandler" : responseHandlerYN5,
+                    "responseHandler" : responseHandlerYN1,
                     "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
                 }
             },
@@ -296,7 +516,26 @@
                     "responseHandler" : responseHandlerYN5,
                     "catch" : "Shall we carry on this conversation in our next session? I'm afraid time's up for today. See you soon!"
                 }
+           },
+            "goodbad" : {
+                "message" : "Is that going well?",
+                "responseHandler" : responseHandlerGoodBad13, //Wait for responseEvent
+                "catch" : "well poo"
+            },
+            responseEvent : function(){
+                vine(this);
             }
+        };
+
+        var responseHandlerGoodBad13 = {
+            "yes" : existential_dread.good,
+            "sure" : existential_dread.good,
+            "ok" : existential_dread.good,
+            "why not" : existential_dread.good,
+            "yeah" : existential_dread.good,
+            "no" : existential_dread.bad,
+            "nah" : existential_dread.bad,
+            "nope" : existential_dread.bad        
         };
 
     var responseHandlerTopic = {
@@ -569,7 +808,7 @@
                 }
             },
             maybe : {
-                "message" : "I can't help you further with that issue, so here are some contact details for support organisations if you feel they might be useful, https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support .Is there anything else you want to talk about?",
+                "message" : "I can't help you further with that issue, so here are some contact details for support organisations if you feel they might be useful, https://www.time-to-change.org.uk/mental-health-and-stigma/help-and-support .What else would you like to talk about?",
                 "responseHandler" : responseHandlerTopic,
                 "catch" : {
                     "message" : "I don't really understand what you mean, it may be best to speak to a professional about that. Is there something else I can help with?",
@@ -664,25 +903,118 @@
 
 
         var masterTopicLists = {
-            good  : responseHandlerGood
-          //bad   : responseHandlerBad  
+            good  : responseHandlerGood,
+            bad   : responseHandlerBad  
         };
         //Init
 
 
         makeBranch(allThings, responseHandler1);
         makeBranch(good, responseHandlerGood);
+        makeBranch(good.catch, responseHandlerYN2);
         makeBranch(bad, responseHandlerBad);
-        makeBranch(work.good, responseHandlerYN1);
-        makeBranch(schoolwork.good, responseHandlerYN1);
+        makeBranch(bad.catch, responseHandlerYN3);
+        makeBranch(yesnoYN3.yes, responseHandlerTopic);
+        makeBranch(yesnoYN3.yes.catch, responseHandlerTopic);
+        makeBranch(yesnoYN3.maybe, responseHandlerTopic);
+        makeBranch(yesnoYN3.maybe.catch, responseHandlerTopic);
+        makeBranch(yesnoYN3.no, responseHandlerYN4);
+        makeBranch(yesnoYN4.yes, responseHandlerTopic);
+        makeBranch(yesnoYN4.yes.catch, responseHandlerTopic);
+        makeBranch(yesnoYN4.no, responseHandlerTopic);
+        makeBranch(yesnoYN4.no.catch, responseHandlerTopic);
+        makeBranch(yesnoYN4.maybe, responseHandlerTopic);
+        makeBranch(yesnoYN4.maybe.catch, responseHandlerTopic);
+        makeBranch(yesnoYN1.yes.catch, responseHandlerYN2);
+        makeBranch(yesnoYN1.yes.catch.catch, responseHandlerTopic);
+        makeBranch(yesnoYN1.no, responseHandlerYN2);
+        makeBranch(yesnoYN2.yes, responseHandlerTopic);
+        makeBranch(yesnoYN2.yes.catch, responseHandlerTopic);
+        makeBranch(yesnoYN5.yes.catch, responseHandlerYN6);
+        makeBranch(yesnoYN5.yes.catch.catch, responseHandlerTopic);
+        makeBranch(yesnoYN5.no, responseHandlerYN6);
+        makeBranch(yesnoYN6.yes, responseHandlerTopic);
+        makeBranch(yesnoYN6.yes.catch, responseHandlerTopic);
+
         makeBranch(family.good, responseHandlerYN1);
         makeBranch(family.good.catch, responseHandlerYN1);
-        //makeBranch(friendwork.good, responseHandlerYN1);
-        //makeBranch(girlfriendwork.good, responseHandlerYN1);
-        //makeBranch(boyfriendwork.good, responseHandlerYN1);
-        //makeBranch(partnerwork.good, responseHandlerYN1);
-        //makeBranch(holidaywork.good, responseHandlerYN1);
-        //makeBranch(eventwork.good, responseHandlerYN1);
+        makeBranch(family.bad, responseHandlerYN5);
+        makeBranch(family.bad.catch, responseHandlerYN5);
+        makeBranch(family.goodbad, responseHandlerGoodBad1);
+        
+        makeBranch(school.good, responseHandlerYN1);
+        makeBranch(school.good.catch, responseHandlerYN1);
+        makeBranch(school.bad, responseHandlerYN5);
+        makeBranch(school.bad.catch, responseHandlerYN5);
+        makeBranch(school.goodbad, responseHandlerGoodBad2);
+
+        makeBranch(university.good, responseHandlerYN1);
+        makeBranch(university.good.catch, responseHandlerYN1);
+        makeBranch(university.bad, responseHandlerYN5);
+        makeBranch(university.bad.catch, responseHandlerYN5);
+        makeBranch(university.goodbad, responseHandlerGoodBad3);
+
+        makeBranch(friend.good, responseHandlerYN1);
+        makeBranch(friend.good.catch, responseHandlerYN1);
+        makeBranch(friend.bad, responseHandlerYN5);
+        makeBranch(friend.bad.catch, responseHandlerYN5);
+        makeBranch(friend.goodbad, responseHandlerGoodBad4);
+
+        makeBranch(girlfriend.good, responseHandlerYN1);
+        makeBranch(girlfriend.good.catch, responseHandlerYN1);
+        makeBranch(girlfriend.bad, responseHandlerYN5);
+        makeBranch(girlfriend.bad.catch, responseHandlerYN5);
+        makeBranch(girlfriend.goodbad, responseHandlerGoodBad5);
+
+        makeBranch(boyfriend.good, responseHandlerYN1);
+        makeBranch(boyfriend.good.catch, responseHandlerYN1);
+        makeBranch(boyfriend.bad, responseHandlerYN5);
+        makeBranch(boyfriend.bad.catch, responseHandlerYN5);
+        makeBranch(boyfriend.goodbad, responseHandlerGoodBad6);
+
+        makeBranch(partner.good, responseHandlerYN1);
+        makeBranch(partner.good.catch, responseHandlerYN1);
+        makeBranch(partner.bad, responseHandlerYN5);
+        makeBranch(partner.bad.catch, responseHandlerYN5);
+        makeBranch(partner.goodbad, responseHandlerGoodBad7);
+
+        makeBranch(holiday.good, responseHandlerYN1);
+        makeBranch(holiday.good.catch, responseHandlerYN1);
+        makeBranch(holiday.bad, responseHandlerYN5);
+        makeBranch(holiday.bad.catch, responseHandlerYN5);
+        makeBranch(holiday.goodbad, responseHandlerGoodBad8);
+
+        makeBranch(event.good, responseHandlerYN1);
+        makeBranch(event.good.catch, responseHandlerYN1);
+        makeBranch(event.bad, responseHandlerYN5);
+        makeBranch(event.bad.catch, responseHandlerYN5);
+        makeBranch(event.goodbad, responseHandlerGoodBad9);
+
+        makeBranch(work.good, responseHandlerYN1);
+        makeBranch(work.good.catch, responseHandlerYN1);
+        makeBranch(work.bad, responseHandlerYN5);
+        makeBranch(work.bad.catch, responseHandlerYN5);
+        makeBranch(work.goodbad, responseHandlerGoodBad10);
+
+        makeBranch(anxiety.good, responseHandlerYN1);
+        makeBranch(anxiety.good.catch, responseHandlerYN1);
+        makeBranch(anxiety.bad, responseHandlerYN5);
+        makeBranch(anxiety.bad.catch, responseHandlerYN5);
+        makeBranch(anxiety.goodbad, responseHandlerGoodBad11);
+
+        makeBranch(depression.good, responseHandlerYN1);
+        makeBranch(depression.good.catch, responseHandlerYN1);
+        makeBranch(depression.bad, responseHandlerYN5);
+        makeBranch(depression.bad.catch, responseHandlerYN5);
+        makeBranch(depression.goodbad, responseHandlerGoodBad12);
+
+        makeBranch(existential_dread.good, responseHandlerYN1);
+        makeBranch(existential_dread.good.catch, responseHandlerYN1);
+        makeBranch(existential_dread.bad, responseHandlerYN5);
+        makeBranch(existential_dread.bad.catch, responseHandlerYN5);
+        makeBranch(existential_dread.goodbad, responseHandlerGoodBad13);
+
+
 
 
         //process a command
