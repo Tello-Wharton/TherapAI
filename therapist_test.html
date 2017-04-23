@@ -19,11 +19,16 @@
         var no = "remove later";
 
         var family = {
-            "message" : "That's great! A good family support network is really important! Would you like to talk about your family?",
-            "responseHandler" :responseHandlerYN1,
-            "catch" : {
-                "message" : "I'm sorry I didn't understand you there. Could you explain?",
-                "responseHandler" : responseHandlerYN1
+            "good" : {
+                "message" : "That's great! A good family support network is really important! Would you like to talk about your family?",
+                "responseHandler" :responseHandlerYN1,
+                "catch" : {
+                    "message" : "I'm sorry I didn't understand you there. Could you explain?",
+                    "responseHandler" : responseHandlerYN1
+                }
+            },
+            "bad" : {
+                "message" : ""
             }
         };
 
@@ -108,6 +113,15 @@
             }
         };
 
+        var anxiety = {
+            good : {
+                "message" : "hi there"
+            },
+            bad : {
+                "message" : "hi there"
+            }
+        }
+
     var responseHandlerTopic = {
         "family" : family,
         "school" : school,
@@ -186,23 +200,23 @@
     };
 
     var responseHandlerGood = {
-        "family" : family,
-        "school" : school,
-        "university" : university,
-        "friend" : friend,
-        "girlfriend" : girlfriend,
-        "boyfriend" : boyfriend,
-        "Wife" : girlfriend,
-        "Husband" : boyfriend,
-        "partner" : partner,
-        "holiday" : holiday,
-        "trip" : event,
-        "event" : event,
-        "wedding" : event,
-        "party" : event,
-        "night out" : event,
-        "date" : event,
-        "work" : work
+        "family" : family.good,
+        "school" : school.good,
+        "university" : university.good,
+        "friend" : friend.good,
+        "girlfriend" : girlfriend.good,
+        "boyfriend" : boyfriend.good,
+        "Wife" : girlfriend.good,
+        "Husband" : boyfriend.good,
+        "partner" : partner.good,
+        "holiday" : holiday.good,
+        "trip" : event.good,
+        "event" : event.good,
+        "wedding" : event.good,
+        "party" : event.good,
+        "night out" : event.good,
+        "date" : event.good,
+        "work" : work.good
 
         };
 
@@ -222,23 +236,27 @@
     };
 
     var responseHandlerBad = {
-        "family" : family,
-        "school" : school,
-        "university" : university,
-        "friend" : friend,
-        "girlfriend" : girlfriend,
-        "boyfriend" : boyfriend,
-        "Wife" : girlfriend,
-        "Husband" : boyfriend,
-        "partner" : partner,
-        "holiday" : holiday,
-        "trip" : event,
-        "event" : event,
-        "wedding" : event,
-        "party" : event,
-        "night out" : event,
-        "date" : event,
-        "work" : work
+        "family" : family.bad,
+        "school" : school.bad,
+        "university" : university.bad,
+        "uni" : university.bad,
+        "friend" : friend.bad,
+        "girlfriend" : girlfriend.bad,
+        "boyfriend" : boyfriend.bad,
+        "Wife" : girlfriend.bad,
+        "Husband" : boyfriend.bad,
+        "partner" : partner.bad,
+        "holiday" : holiday.bad,
+        "trip" : event.bad,
+        "event" : event.bad,
+        "wedding" : event.bad,
+        "party" : event.bad,
+        "night out" : event.bad,
+        "date" : event.bad,
+        "work" : work.bad,
+        "anxious" : anxiety.bad,
+        "worried" : anxiety.bad,
+        "anxiety" : anxiety.bad,
 
     };
 
